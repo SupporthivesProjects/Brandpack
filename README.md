@@ -8,7 +8,7 @@ QA - Parth
 
 Developer Team:Rahul,Dhiraj,Trithak,Medhanash,Saakshi,Saakshi K,
 Project Report : Jeet 
-Project Lead : Vijay
+Team Lead : Vijay
 
 Vijay:Header,Footer,
 Rahul: home page, checkout page, checkout-success, checkout-error same page (pop)
