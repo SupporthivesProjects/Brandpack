@@ -15,7 +15,7 @@ Rahul: home page, checkout page, checkout-success, checkout-error same page (pop
 Dhiraj: Plan-page,Plan-individual,Plans-Regional, Plan-individual-Regional, same page (pop)<br>
 Trithak: Aboutus-page,Account page all, same page (pop)<br>
 Medhnash:Privacy,Terms,Compatibility,error page, same page (pop)<br>
-saakshi c : login, reset password,reset password request  ,register,register(error), same page (pop)<br>
+saakshi c : login, reset password,reset password request  ,register,register(error)and success, same page (pop)<br>
 saakshi k : help-center, contactus, contactus-succesful, contactus-error, same page (pop)<br>
 
 
