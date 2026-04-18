@@ -6,7 +6,7 @@ End Date : 25th april
 QA - Parth
 
 
-Developer Team:Rahul,Dhiraj,Trithak,Medhanash,Saakshi,Saakshi K, Trithak,
+Developer Team:Rahul,Dhiraj,Trithak,Medhanash,Saakshi,Saakshi K,
 Project Report : Jeet 
 Project Lead : Vijay
 
