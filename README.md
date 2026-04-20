@@ -18,6 +18,7 @@ Medhnash:Privacy,Terms,Compatibility,error page, same page (pop)<br>
 saakshi c : login, reset password,reset password request  ,register,register(error)and success, same page (pop)<br>
 saakshi k : help-center, contactus, contactus-succesful, contactus-error, same page (pop)<br>
 
+Invoice Email Template : Saakshi C
 
 figma url : https://www.figma.com/design/690IrqqDz13qloEkNWhADo/AD534---Reskin--E-Sim----Simseekr.com?node-id=11206-110278&t=69h8ozdvRWavGc1x-0
 
