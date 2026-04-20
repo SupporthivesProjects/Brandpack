@@ -91,6 +91,13 @@
       });
     </script>
     <script>
+      function selectCurrency(currency, flagSrc) {
+          const btn = document.getElementById("currencyBtn");
+          const flag = document.getElementById("currencyFlag");
+          btn.innerHTML = `${currency} <img id="currencyFlag" src="${flagSrc}" class="img-fluid">`;
+      }
+    </script>
+    <script>
       window.addEventListener('scroll', function() {
           var content = document.querySelector('header');
           var scrollPosition = window.scrollY;
@@ -101,33 +108,6 @@
           }
       });
     </script>
-    <script>
-      const items = document.querySelectorAll('#flag .dropdown-item');
-      const btnImg = document.querySelector('#dropdownBtn img');
-
-      items.forEach(item => {
-        item.addEventListener('click', function(e){
-          e.preventDefault();
-
-          // remove active
-          items.forEach(i => i.classList.remove('active'));
-
-          // add active
-          this.classList.add('active');
-
-          // get clicked image src
-          const imgSrc = this.querySelector('img').src;
-
-          // change button image
-          btnImg.src = imgSrc;
-        });
-      });
-    </script>
-    <script>
-      function selectCurrency(currency) {
-        console.log("Selected:", currency);
-      }
-</script>
     <script>
       AOS.init();
     </script>

@@ -99,6 +99,37 @@ html,body{
   padding: 0;
   box-sizing: border-box;
 }
+#currencyFlag{
+    width: 24px;
+    height: 24px;
+    max-width: 100%;
+}
+.cartCount{
+    border-radius: 100px;
+    background: var(--base-Error-Red, #DF3F3F);
+    display: inline-flex;
+    padding: 4px 4px 4px 5px;
+    justify-content: center;
+    align-items: center;
+    color: var(--base-White, #FFF);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Cabin;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0px;
+    right: -2px;
+}
+.navbar {
+    background: var(--base-White, #FFF);
+    box-shadow: 0 41px 160px 0 rgba(0, 0, 0, 0.04), 0 20.756px 69.75px 0 rgba(0, 0, 0, 0.03), 0 8.2px 26px 0 rgba(0, 0, 0, 0.02), 0 1.794px 9.25px 0 rgba(0, 0, 0, 0.01);
+}
 
 /* ---------------------------base------------------------------------- */
 header .nav-link{
@@ -110,6 +141,7 @@ header .nav-link{
     line-height: 120%;
     letter-spacing: 0.18px;
     text-transform: uppercase;
+    position: relative;
 }
 .nav-link.active{
   color: var(--brand-Light-Green, #51AF5E) !important;

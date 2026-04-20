@@ -66,20 +66,21 @@
                 <div class="d-flex right-side-menu">
                   <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                      <button class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      $ USD <img src="./img/usa-flag.svg" class="img-fluid">
+                      <button class="nav-link dropdown-toggle"  id="currencyBtn"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      $ USD <img src="./img/usa-flag.svg" class="img-fluid" id="currencyFlag">
                       </button>
                       <ul class="dropdown-menu">
-                        <li><button class="dropdown-item" onclick="selectCurrency('USD')">$ USD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
-                        <li><button class="dropdown-item" onclick="selectCurrency('CAD')">$ CAD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
-                        <li><button class="dropdown-item" onclick="selectCurrency('EUR')">$ EUR <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
-                        <li><button class="dropdown-item" onclick="selectCurrency('GBP')">$ GBP <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
-                        <li><button class="dropdown-item" onclick="selectCurrency('AUD')">$ AUD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
-                        <li><button class="dropdown-item" onclick="selectCurrency('NZD')">$ NZD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ USD','./img/usa-flag.svg')">$ USD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ CAD','./img/usa-flag.svg')">$ CAD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ EUR','./img/france.svg')">$ EUR <img src="./img/france.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ GBP','./img/italy.svg')">$ GBP <img src="./img/italy.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ AUD','./img/thailand.svg')">$ AUD <img src="./img/thailand.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ NZD','./img/usa-flag.svg')">$ NZD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
                       </ul>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link ">
+                        <div class="cartCount">1</div>
                         <img src="./img/shopping-basket-solid.svg" alt="Shopping Basket Icon" class="shopping-basket-icon img-fluid">
                       </a>
                     </li>

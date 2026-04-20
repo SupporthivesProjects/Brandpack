@@ -12,7 +12,20 @@
 
    
 }
+@media only screen and (max-width: 800px) {
+    header .navbar-nav .dropdown-menu {
+        position: absolute !important;
+    }
+    .cartCount {
+        position: absolute;
+        top: -8px;
+        right: -2px;
+    }
+}
 @media only screen and (max-width: 600px) {
+    header .navbar-nav .dropdown-menu {
+        position: absolute !important;
+    }
     .navbar-brand img {
         width: 126px;
         height: 32px;
