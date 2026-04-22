@@ -1,7 +1,7 @@
 # Simseekr
 
-Start Date : 17th april
-End Date : 25th april
+Start Date : 22th april
+End Date : 28th april
 
 QA - Parth
 
@@ -20,7 +20,7 @@ saakshi k : help-center, contactus, contactus-succesful, contactus-error, same p
 
 Invoice Email Template : Saakshi C
 
-figma url : https://www.figma.com/design/690IrqqDz13qloEkNWhADo/AD534---Reskin--E-Sim----Simseekr.com?node-id=11206-110278&t=69h8ozdvRWavGc1x-0
+figma url : https://www.figma.com/design/8fJyRl6wPlYP0XNb3bAcFj/AD534---Reskin--E-Sim----Simseekr.com--Copy-?node-id=3357-851&p=f&t=lkne4J48jvjgcgKD-0
 
 
 prototype link :https://www.figma.com/proto/690IrqqDz13qloEkNWhADo/AD534---Reskin--E-Sim----Simseekr.com?node-id=8256-2700&t=69h8ozdvRWavGc1x-0&scaling=min-zoom&content-scaling=fixed&page-id=3357%3A851
