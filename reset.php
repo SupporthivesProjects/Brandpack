@@ -1,7 +1,7 @@
 
 <?php include 'includes/header.php'; ?>
 
-<section class="auth-section auth-login">
+<section class="auth-section auth-reset-login">
     <img src="./img/auth-bg.png" class="img-fluid d-none d-lg-block d-md-block bg-image">
     <div class="container">
         <div class="container-main">
@@ -11,9 +11,13 @@
                         <img src="./img/auto-login-m.png" class="img-fluid w-100 d-block d-lg-none d-md-none">
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="welcome-back-main">
-                            <div class="welcome-back">
-                                <h3>Welcome Back</h3>
+                        <div class="welcome-back-main reset-password-main">
+                            <div class="welcome-back"> 
+                                <h3>Reset password</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur.
+                                    Adipiscing consectetur non sagittis quam et.
+                                </p>
                                 <form>
                                     <div class="row">
                                         <div class="col-12">
@@ -22,20 +26,14 @@
                                         <div class="col-12">
                                             <input type="text" class="form-control" placeholder="Password">
                                         </div>
-                                        <div class="col-12">
-                                            <div class="forget-pass">
-                                                <a href="">Forgot Password?</a>
-                                            </div>
-                                        </div>
+                                        
                                         <div class="col-12">
                                             <div class="divider-line"></div>
                                         </div>
                                         <div class="col">
-                                            <button class="btn btn-green"> Login </button>
+                                            <button class="btn btn-green"> Reset Password </button>
                                         </div>
-                                        <div class="col-12">
-                                            <p>Don’t have an account? <a href="#">Register here</a></p>
-                                        </div>
+                                        
                                     </div>
                                 </form>
 
