@@ -403,7 +403,8 @@ input[type=checkbox], input[type=radio] {
 }
 /* Checkut Page End */
 
-
+/* Checkout Success Start */
+/* Checkout Success End */
 
 /* *************** */
 /* Responsive Css */
@@ -465,6 +466,9 @@ input[type=checkbox], input[type=radio] {
     padding: 20px 16px;
 }
 /* Checkut Page End */
+
+/* Checkout Success Start */
+/* Checkout Success End */
 }
 @media screen and (min-device-width: 700px) and (max-device-width: 799px) {}
 
