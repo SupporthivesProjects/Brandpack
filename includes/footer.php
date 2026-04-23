@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-  <footer class="footer">
-    <div class="container">
-      <div class="col">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-            <div class="footer-logo">
-              <img src="./img/fLogo.svg" alt="Simseekr Logo" class="img-fluid">
-              <p>© 2026 Simseekr. All rights reserved.</p>
-              <div class="footer-p">
-                <ul>
-                  <li>SimseekrSupport@email.co</li>
-                  <li>+111 234 567 890</li>
-                </ul>
-                <p class="m-0">100 Edenbridge Road, Birmingham, United Kingdom, B28 8PR. </p>
-              </div>
-=======
 <footer class="footer">
   <div class="container">
     <div class="col">
@@ -29,7 +12,6 @@
                 <li>+111 234 567 890</li>
               </ul>
               <p class="m-0">100 Edenbridge Road, Birmingham, United Kingdom, B28 8PR. </p>
->>>>>>> rahul
             </div>
           </div>
         </div>
