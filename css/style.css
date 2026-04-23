@@ -4,6 +4,10 @@
   font-family:'Satoshi';
   src: url(../fonts/Satoshi-Regular.otf);
 }
+@font-face {
+  font-family:'Bricolage Grotesque';
+  src: url(../fonts/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
 
 body{
   font-family: 'Geist';
