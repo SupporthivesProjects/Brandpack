@@ -117,8 +117,6 @@ html,body{
     align-items: center;
     color: var(--base-White, #FFF);
     text-align: center;
-    leading-trim: both;
-    text-edge: cap;
     font-family: Cabin;
     font-size: 12px;
     font-style: normal;
