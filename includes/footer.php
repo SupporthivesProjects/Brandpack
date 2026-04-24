@@ -82,10 +82,17 @@
     <script src="uiframe/js/aos.js"></script>
     <script src="./uiframe/js/home-js.js"></script>
     <script>
-        $(document).ready(function () {
+      $(document).ready(function () {
           $(".navbar-toggler").click(function () {
               $(this).toggleClass("is-active");
               $(".navbar-expand-lg").toggleClass("header-is-active");
+
+              let logo = $("#logo");
+              if (logo.attr("src") === "./img/hlogo.svg") {
+                  logo.attr("src", "./img/clogo.svg");
+              } else {
+                  logo.attr("src", "./img/hlogo.svg");
+              }
           });
       });
     </script>
