@@ -1,0 +1,1773 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simseekr</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/tg-icon.svg">
+    <link rel="stylesheet" href="uiframe/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="uiframe/css/slick.css">
+    <link rel="stylesheet" href="uiframe/css/slick-theme.css">
+    <link rel="stylesheet" href="css/t_styles.css">
+    <link rel="stylesheet" href="css/rstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="uiframe/css/font-awesome.min.css">
+    <link rel="stylesheet" href="uiframe/css/animate.min.css">
+    <link href="uiframe/css/aos.css" rel="stylesheet">
+  </head>
+  <body>
+  
+  <div class="main-div">
+    <header class="header-top fixed-top" id="header-top">
+      <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="./img/hlogo.svg" alt="Simseekr Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                  <h5>Navigation</h5>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Shop eSIMs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Support Hub</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav m-auto menu-items-mobile">
+                  <h5>Navigation</h5>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Terms & Conditions</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Cookies Policy</a>
+                  </li>
+                </ul>
+                <div class="d-flex right-side-menu">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <button class="nav-link dropdown-toggle"  id="currencyBtn"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      $ USD <img src="./img/usa-flag.svg" class="img-fluid" id="currencyFlag">
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ USD','./img/usa-flag.svg')">$ USD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ CAD','./img/usa-flag.svg')">$ CAD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ EUR','./img/france.svg')">$ EUR <img src="./img/france.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ GBP','./img/italy.svg')">$ GBP <img src="./img/italy.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ AUD','./img/thailand.svg')">$ AUD <img src="./img/thailand.svg" class="img-fluid"></button></li>
+                        <li><button class="dropdown-item" onclick="selectCurrency('$ NZD','./img/usa-flag.svg')">$ NZD <img src="./img/usa-flag.svg" class="img-fluid"></button></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link ">
+                        <div class="cartCount">1</div>
+                        <img src="./img/shopping-basket-solid.svg" alt="Shopping Basket Icon" class="shopping-basket-icon img-fluid">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <img src="./img/user-icon.svg" alt="Support Icon" class="user-icon img-fluid">
+                    </li>
+                  </ul>
+                </div> 
+                <div class="header-bottom d-block d-lg-none d-md-block">
+                    <p>© 2026 Simseekr. All rights reserved.</p>
+                </div>
+            </div>
+          </div>
+      </nav>
+   </header>
+
+<Maindiv class="mas_main">
+    <div class="mas1">
+        <div class="mas1_inner">
+            <h1 class="mas1_title">Hello, Tirthak</h1>
+            <p class="mas1_subtitle">Not you? <a href="#">Sign out.</a></p>
+        </div>
+    </div>
+    <div class="mas2">
+        <div class="mas2_details_panel">
+            <div class="mas2_details_panel_left">
+                <div class="mas2_detail_box">
+                    <div class="mas2_detail_box_top">
+                        <h1 class="mas2_details_box_title">My Details</h1>
+                        <!-- <button class="btn btn_yellow_global ms-auto me-0">Update</button> -->
+                        <button class="green_acc_button ms-auto me-0">Save changes</button>
+                    </div>
+                    <div class="mas2_detail_box_body">
+                        <input type="text" class="form-control input_global_mehul" placeholder="Full Name">
+                        <div class="dama_dam_mast_kalandar">
+                            <input type="email" class="form-control input_global_mehul"
+                                placeholder="Email Address">
+                            <input type="text" class="form-control input_global_mehul"
+                                placeholder="Phone number">
+                            <input type="text" class="form-control input_global_mehul"
+                                placeholder="Address line 1">
+                            <input type="text" class="form-control input_global_mehul"
+                                placeholder="City / town">
+                            <input type="text" class="form-control input_global_mehul" placeholder="Country">
+                            <input type="text" class="form-control input_global_mehul"
+                                placeholder="Zip / Postal Code">
+                        </div>
+                    </div>
+                </div>
+                <div class="mas2_detail_img_box"></div>
+                <div class="mas2_detail_box">
+                    <div class="mas2_detail_box_top">
+                        <h1 class="mas2_details_box_title">Change Password</h1>
+                        <button class="green_acc_button ms-auto me-0">Save changes</button>
+
+                    </div>
+                    <div class="mas2_detail_box_body">
+                        <div class="dama_dam_mast_kalandar">
+                            <div class="passFiled">
+                                <input type="password" class="form-control input_global_mehul" id="pass"
+                                    placeholder="Current Password">
+                                <button class="btn p-0 passEyeIcon" onclick="passwordEye(event, 'pass')"><img
+                                        src="./img/ic.svg" alt="" class="img-fluid eyeIcon"></button>
+                            </div>
+                            <div class="passFiled">
+                                <input type="password" class="form-control input_global_mehul" id="cpass"
+                                    placeholder="New Password">
+                                <button class="btn p-0 passEyeIcon" onclick="passwordEye(event,'cpass')"><img
+                                        src="./img/ic.svg" alt="" class="img-fluid eyeIcon"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mas2_detail_img_box"></div>
+                <div class="mas2_detail_box">
+                    <div class="mas2_detail_box_top">
+                        <h1 class="mas2_details_box_title">Order History</h1>
+                        <button class="green_acc_button ms-auto me-0">View All</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="mas2_details_panel_right">
+                <div class="custom_tab_wrapper">
+                    <div class="">
+                        <h3 class="mas2_dpr_title">My eSIMs</h3>
+                        <div class="custom_tab_pagination" id="custom-tab-buttons" role="tablist">
+                            <button class="mas2_details_panel_right_tab_button active" id="custom-tab-btn1"
+                                data-bs-toggle="pill" data-bs-target="#custom-tab-pane1" type="button"
+                                role="tab">All</button>
+                            <button class="mas2_details_panel_right_tab_button" id="custom-tab-btn2"
+                                data-bs-toggle="pill" data-bs-target="#custom-tab-pane2" type="button"
+                                role="tab">Country</button>
+                            <button class="mas2_details_panel_right_tab_button" id="custom-tab-btn3"
+                                data-bs-toggle="pill" data-bs-target="#custom-tab-pane3" type="button"
+                                role="tab">Regional</button>
+                            <button class="mas2_details_panel_right_tab_button" id="custom-tab-btn4"
+                                data-bs-toggle="pill" data-bs-target="#custom-tab-pane4" type="button"
+                                role="tab">Global</button>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="custom-tab-content">
+                        <div class="tab-pane fade show active" id="custom-tab-pane1" role="tabpanel"
+                            aria-labelledby="custom-tab-btn1" tabindex="0">
+                            <div class="scroll_card_outer">
+                                <div class="mas2_plan_card active">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div onclick="window.location.href='myAccountIndividualEsim.php'"
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r">
+                                            <button class="btn btn_green_active ms-auto me-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                    <path d="M10.8292 3.83822C12.3913 5.40031 12.3913 7.93297 10.8292 9.49507M5.17237 9.49507C3.61027 7.93297 3.61027 5.40031 5.17237 3.83822M3.28661 11.3807C0.683111 8.77723 0.683111 4.55613 3.28661 1.95264M12.715 1.95264C15.3185 4.55613 15.3185 8.77723 12.715 11.3807M8.0008 8C8.73718 8 9.33413 7.40305 9.33413 6.66667C9.33413 5.93029 8.73718 5.33333 8.0008 5.33333C7.26442 5.33333 6.66747 5.93029 6.66747 6.66667C6.66747 7.40305 7.26442 8 8.0008 8ZM8.0008 8V14" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                                Active
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card expired">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_red_expired ms-auto me-0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path d="M11.3327 4.66663L4.66602 11.3333M4.66602 4.66663L11.3327 11.3333" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg> Expired</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card expired">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card expired">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="custom-tab-pane2" role="tabpanel"
+                            aria-labelledby="custom-tab-btn2" tabindex="0">
+                            <div class="scroll_card_outer">
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="custom-tab-pane3" role="tabpanel"
+                            aria-labelledby="custom-tab-btn3" tabindex="0">
+                            <div class="scroll_card_outer">
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="custom-tab-pane4" role="tabpanel"
+                            aria-labelledby="custom-tab-btn4" tabindex="0">
+                            <div class="scroll_card_outer">
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                                <div class="mas2_plan_card">
+                                    <div class="mas2_plan_card_top">
+                                        <div class="mas2_pct_l"><img src="./img/myImg/france_flag.svg" alt=""
+                                                class="img-fluid flaf_mas2">
+                                            <p class="mas2_flag_title">Brazil</p>
+                                        </div>
+                                        <div class="mas2_pct_r"><button
+                                                class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                        </div>
+                                    </div>
+                                    <div class="mas2_plan_card_bottom">
+                                        <div class="mas2_plan_card_bottom_l">
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">20&nbsp;GB</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">20&nbsp;GB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="stat-box">
+                                                <div class="stat-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path
+                                                            d="M6.00065 12.3334H10.0007M4.40065 1.33337H11.6007C11.974 1.33337 12.1607 1.33337 12.3033 1.40604C12.4288 1.46995 12.5307 1.57194 12.5947 1.69738C12.6673 1.83999 12.6673 2.02667 12.6673 2.40004V3.78305C12.6673 4.10917 12.6673 4.27223 12.6305 4.42568C12.5978 4.56173 12.5439 4.69179 12.4708 4.81109C12.3884 4.94564 12.2731 5.06094 12.0425 5.29155L10.0882 7.24579C9.82422 7.5098 9.69221 7.64181 9.64276 7.79403C9.59925 7.92792 9.59925 8.07216 9.64276 8.20605C9.69221 8.35827 9.82422 8.49028 10.0882 8.75429L12.0425 10.7085C12.2731 10.9391 12.3884 11.0544 12.4708 11.189C12.5439 11.3083 12.5978 11.4383 12.6305 11.5744C12.6673 11.7278 12.6673 11.8909 12.6673 12.217V13.6C12.6673 13.9734 12.6673 14.1601 12.5947 14.3027C12.5307 14.4281 12.4288 14.5301 12.3033 14.594C12.1607 14.6667 11.974 14.6667 11.6007 14.6667H4.40065C4.02728 14.6667 3.8406 14.6667 3.69799 14.594C3.57255 14.5301 3.47056 14.4281 3.40665 14.3027C3.33398 14.1601 3.33398 13.9734 3.33398 13.6V12.217C3.33398 11.8909 3.33398 11.7278 3.37082 11.5744C3.40349 11.4383 3.45736 11.3083 3.53046 11.189C3.61292 11.0544 3.72822 10.9391 3.95882 10.7085L5.91307 8.75429C6.17708 8.49028 6.30909 8.35827 6.35855 8.20605C6.40205 8.07216 6.40205 7.92792 6.35855 7.79403C6.30909 7.64181 6.17708 7.5098 5.91307 7.24579L3.95882 5.29155C3.72822 5.06094 3.61292 4.94564 3.53046 4.81109C3.45736 4.69179 3.40349 4.56173 3.37082 4.42568C3.33398 4.27223 3.33398 4.10917 3.33398 3.78305V2.40004C3.33398 2.02667 3.33398 1.83999 3.40665 1.69738C3.47056 1.57194 3.57255 1.46995 3.69799 1.40604C3.8406 1.33337 4.02728 1.33337 4.40065 1.33337Z"
+                                                            stroke="#47B147" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <p class="title">30 days</p>
+                                                </div>
+
+                                                <div class="progress-row">
+                                                    <div class="progress-bar">
+                                                        <div class="progress-fill"
+                                                            style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro_val_div">
+                                                        <p class="progress-value">30</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mas2_pct_r"><div
+                                                class="btn btn_yellow_global_arrow"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none">
+                                                    <path d="M5 12L19 12M19 12L12 5M19 12L12 19" stroke="#1E3B40"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Maindiv>
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="col">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+            <div class="footer-logo">
+              <img src="./img/fLogo.svg" alt="Simseekr Logo" class="img-fluid">
+              <p>© 2026 Simseekr. All rights reserved.</p>
+              <div class="footer-p">
+                <ul>
+                  <li>SimseekrSupport@email.co</li>
+                  <li>+111 234 567 890</li>
+                </ul>
+                <p class="m-0">100 Edenbridge Road, Birmingham, United Kingdom, B28 8PR. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1 col-md-12 col-sm-12 col-12"></div>
+          <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+             <div class="row-footer col-right-main-footer">
+              <div class="col-right">
+                <div class="footer-link socials-link">
+                  <h6>Socials</h6>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <img src="./img/fb.svg" alt="Facebook">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="./img/insta.svg" alt="Instagram">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-right">
+                <div class="footer-link footer-navigation-link">
+                  <h6>Navigation</h6>
+                  <div class="footer-navigation">
+                    <ul>
+                        <li><a href="#">Shop eSIMs</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">Login / Register</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Support Hub</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Supported Devices</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-right">
+                <div class="footer-link policies-link">
+                  <h6>Policies</h6>
+                    <ul>
+                      <li>
+                        <a href="#">Terms & conditions</a>
+                      </li>
+                      <li>
+                        <a href="#">privacy policy</a>
+                      </li>
+                    </ul> 
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+    <script src="uiframe/js/jquery.min.js"></script>
+    <script src="uiframe/js/bootstrap.bundle.min.js"></script>
+    <script src="uiframe/js/popper.min.js"></script>
+    <script src="uiframe/js/slick.js"></script>
+    <script src="uiframe/js/owl.carousel.js"></script>
+    <script src="uiframe/js/swiper-bundle.min.js"></script>
+    <script src="uiframe/js/flickity.pkgd.min.js"></script>   
+    <script src="uiframe/js/aos.js"></script>
+    <script src="./uiframe/js/home-js.js"></script>
+    <script>
+        $(document).ready(function () {
+          $(".navbar-toggler").click(function () {
+              $(this).toggleClass("is-active");
+              $(".navbar-expand-lg").toggleClass("header-is-active");
+          });
+      });
+    </script>
+    <script>
+      function selectCurrency(currency, flagSrc) {
+          const btn = document.getElementById("currencyBtn");
+          const flag = document.getElementById("currencyFlag");
+          btn.innerHTML = `${currency} <img id="currencyFlag" src="${flagSrc}" class="img-fluid">`;
+      }
+    </script>
+    <script>
+      window.addEventListener('scroll', function() {
+          var content = document.querySelector('header');
+          var scrollPosition = window.scrollY;
+          if (scrollPosition > 10) {
+              content.classList.add("header-scroll")
+          } else {
+              content.classList.remove("header-scroll")
+          }
+      });
+    </script>
+     <script>
+        function passwordEye(e, inpId) {
+            const input = document.querySelector(`#${inpId}`);
+            const img = e.target;
+            const type = input.getAttribute('type') === 'password' ? 'text' : 'password';
+            input.setAttribute('type', type);
+
+            if (img.src.includes("ic.svg")) {
+                img.src = img.src.replace("ic.svg", "io.svg");
+            } else {
+                img.src = img.src.replace("io.svg", "ic.svg");
+            }
+        }
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  </html>
+  
