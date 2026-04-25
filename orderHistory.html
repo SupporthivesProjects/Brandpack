@@ -112,7 +112,7 @@
             </nav>
         </header>
 
-        <Maindiv class="mas_main">
+        <Maindiv class="mas_main orderhistory_padd" >
             <div class="mas1">
                 <div class="mas1_inner">
                     <h1 class="mas1_title">Order History</h1>
@@ -121,1054 +121,210 @@
             </div>
             <div class="mas2">
                 <div class="mas2_tabpanel">
-                    <div class="tab-content" id="mas2Content">
-                        <div class="tab-pane fade show active" id="ohs2-one" role="tabpanel"
-                            aria-labelledby="ohs2-one-tab" tabindex="0">
-                            <div class="ohs2_box table-responsive">
-                                <table class="table table-borderless" style="margin-bottom: 0px;">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Order No.</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Plan</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Amount</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Status</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Action</h4>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="ohs2_mobo">
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
+                    <div class="ohs2_box table-responsive">
+                        <table class="table table-borderless" style="margin-bottom: 0px;">
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        <h4 class="ohs_table_title">Order No.</h4>
+                                    </th>
+                                    <th scope="col">
+                                        <h4 class="ohs_table_title">Plan</h4>
+                                    </th>
+                                    <th scope="col">
+                                        <h4 class="ohs_table_title">Amount</h4>
+                                    </th>
+                                    <th scope="col">
+                                        <h4 class="ohs_table_title">Status</h4>
+                                    </th>
+                                    <th scope="col">
+                                        <h4 class="ohs_table_title">Action</h4>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
+                                    </td>
+                                    <td>
+                                        <div class="ohs_pill">
+                                            <p class="ohs_pill_text">Completed</p>
                                         </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
+                                    </td>
+                                    <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
+                                                class="img-fluid ohsd_img"></button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
+                                    </td>
+                                    <td>
+                                        <div class="ohs_pill">
+                                            <p class="ohs_pill_text">Completed</p>
                                         </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
+                                    </td>
+                                    <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
+                                                class="img-fluid ohsd_img"></button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
+                                    </td>
+                                    <td>
+                                        <div class="ohs_pill">
+                                            <p class="ohs_pill_text">Completed</p>
                                         </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
+                                    </td>
+                                    <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
+                                                class="img-fluid ohsd_img"></button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
+                                    </td>
+                                    <td>
+                                        <div class="ohs_pill">
+                                            <p class="ohs_pill_text">Completed</p>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                    </td>
+                                    <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
+                                                class="img-fluid ohsd_img"></button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
+                                    </td>
+                                    <td>
+                                        <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
+                                    </td>
+                                    <td>
+                                        <div class="ohs_pill">
+                                            <p class="ohs_pill_text">Completed</p>
                                         </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="ohs2-two" role="tabpanel" aria-labelledby="ohs2-two-tab"
-                            tabindex="0">
-                            <div class="ohs2_box table-responsive">
-                                <table class="table table-borderless" style="margin-bottom: 0px;">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Order No.</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Plan</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Amount</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Status</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Action</h4>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
-
-                            <div class="ohs2_mobo">
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                        <div class="tab-pane fade" id="ohs2-three" role="tabpanel" aria-labelledby="ohs2-three-tab"
-                            tabindex="0">
-                            <div class="ohs2_box table-responsive">
-                                <table class="table table-borderless" style="margin-bottom: 0px;">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Order No.</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Plan</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Amount</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Status</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Action</h4>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
-                            <div class="ohs2_mobo">
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-                        </div>
-                        <div class="tab-pane fade" id="ohs2-four" role="tabpanel" aria-labelledby="ohs2-four-tab"
-                            tabindex="0">
-                            <div class="ohs2_box table-responsive">
-                                <table class="table table-borderless" style="margin-bottom: 0px;">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Order No.</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Plan</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Amount</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Status</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Action</h4>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
-
-                            <div class="ohs2_mobo">
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                        <div class="tab-pane fade" id="ohs2-five" role="tabpanel" aria-labelledby="ohs2-five-tab"
-                            tabindex="0">
-                            <div class="ohs2_box table-responsive">
-                                <table class="table table-borderless" style="margin-bottom: 0px;">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Order No.</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Plan</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Amount</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Status</h4>
-                                            </th>
-                                            <th scope="col">
-                                                <h4 class="ohs_table_title">Action</h4>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">Brazil 10GB 30Days</p>
-                                            </td>
-                                            <td>
-                                                <p class="ohs_table_subtitle diff_crolor">$49.99 USD</p>
-                                            </td>
-                                            <td>
-                                                <div class="ohs_pill">
-                                                    <p class="ohs_pill_text">Completed</p>
-                                                </div>
-                                            </td>
-                                            <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                        class="img-fluid ohsd_img"></button></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
-
-                            <div class="ohs2_mobo">
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ohs2_mobo_card">
-                                    <div class="ohs2_top">
-                                        <div class="ohs2_top_l">
-                                            <h4 class="ohs_table_title2">Order No.</h4>
-                                            <p class="ohs_table_subtitle">MODAINKPDP</p>
-                                        </div>
-                                        <div class="ohs2_top_r">
-                                            <div class="ohs_pill">
-                                                <p class="ohs_pill_text">Completed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ohs2_middle">
-                                        <h4 class="ohs_table_title2">Plan</h4>
-                                        <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
-                                    </div>
-                                    <div class="ohs2_bottom">
-                                        <div class="ohs2_bottom_l">
-                                            <h4 class="ohs_table_title2">Amount</h4>
-                                            <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
-                                        </div>
-                                        <div class="ohs2_bottom_r">
-                                            <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
-                                                    class="img-fluid ohsd_img"></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-                        </div>
+                                    </td>
+                                    <td><button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
+                                                class="img-fluid ohsd_img"></button></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="mas2_tab_pagination" id="mas2" role="tablist" aria-orientation="vertical">
-                        
-                        <button class="mas2_pagination_button active" id="ohs2-one-tab" data-bs-toggle="pill"
-                            data-bs-target="#ohs2-one" type="button" role="tab" aria-controls="ohs2-one"
-                            aria-selected="true">1</button>
-                        <button class="mas2_pagination_button" id="ohs2-two-tab" data-bs-toggle="pill"
-                            data-bs-target="#ohs2-two" type="button" role="tab" aria-controls="ohs2-two"
-                            aria-selected="true">2</button>
-                        <button class="mas2_pagination_button" id="ohs2-three-tab" data-bs-toggle="pill"
-                            data-bs-target="#ohs2-three" type="button" role="tab" aria-controls="ohs2-three"
-                            aria-selected="true">3</button>
-                        <button class="mas2_pagination_button" id="ohs2-four-tab" data-bs-toggle="pill"
-                            data-bs-target="#ohs2-four" type="button" role="tab" aria-controls="ohs2-four"
-                            aria-selected="true">4</button>
-                        <button class="mas2_pagination_button" id="ohs2-five-tab" data-bs-toggle="pill"
-                            data-bs-target="#ohs2-five" type="button" role="tab" aria-controls="ohs2-five"
-                            aria-selected="true">5</button>
+                    <div class="ohs2_mobo">
+                        <div class="ohs2_mobo_card">
+                            <div class="ohs2_top">
+                                <div class="ohs2_top_l">
+                                    <h4 class="ohs_table_title2">Order No.</h4>
+                                    <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                </div>
+                                <div class="ohs2_top_r">
+                                    <div class="ohs_pill">
+                                        <p class="ohs_pill_text">Completed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ohs2_middle">
+                                <h4 class="ohs_table_title2">Plan</h4>
+                                <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
+                            </div>
+                            <div class="ohs2_bottom">
+                                <div class="ohs2_bottom_l">
+                                    <h4 class="ohs_table_title2">Amount</h4>
+                                    <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
+                                </div>
+                                <div class="ohs2_bottom_r">
+                                    <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
+                                            class="img-fluid ohsd_img"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ohs2_mobo_card">
+                            <div class="ohs2_top">
+                                <div class="ohs2_top_l">
+                                    <h4 class="ohs_table_title2">Order No.</h4>
+                                    <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                </div>
+                                <div class="ohs2_top_r">
+                                    <div class="ohs_pill">
+                                        <p class="ohs_pill_text">Completed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ohs2_middle">
+                                <h4 class="ohs_table_title2">Plan</h4>
+                                <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
+                            </div>
+                            <div class="ohs2_bottom">
+                                <div class="ohs2_bottom_l">
+                                    <h4 class="ohs_table_title2">Amount</h4>
+                                    <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
+                                </div>
+                                <div class="ohs2_bottom_r">
+                                    <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
+                                            class="img-fluid ohsd_img"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ohs2_mobo_card">
+                            <div class="ohs2_top">
+                                <div class="ohs2_top_l">
+                                    <h4 class="ohs_table_title2">Order No.</h4>
+                                    <p class="ohs_table_subtitle">MODAINKPDP</p>
+                                </div>
+                                <div class="ohs2_top_r">
+                                    <div class="ohs_pill">
+                                        <p class="ohs_pill_text">Completed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ohs2_middle">
+                                <h4 class="ohs_table_title2">Plan</h4>
+                                <p class="ohs_table_subtitle diff_crolor2">Brazil 10GB 30Days</p>
+                            </div>
+                            <div class="ohs2_bottom">
+                                <div class="ohs2_bottom_l">
+                                    <h4 class="ohs_table_title2">Amount</h4>
+                                    <p class="ohs_table_subtitle diff_crolor2">$49.99 USD</p>
+                                </div>
+                                <div class="ohs2_bottom_r">
+                                    <button class="btn ohdownload"><img src="./img/download_icon.svg" alt=""
+                                            class="img-fluid ohsd_img"></button>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
+                    <div class="tirthqak_pagination">
+
+                    </div>
+                    
                 </div>
             </div>
         </Maindiv>

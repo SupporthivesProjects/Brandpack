@@ -682,6 +682,9 @@
     padding: unset;
 }
 
+.orderhistory_padd .mas2 {
+    padding-bottom: 140px;
+}
 
 
 .pls2_title {
@@ -983,18 +986,23 @@
 
 .btn_yellow_global {
     border-radius: 100px;
-    background: var(--brand-yellow, #F7C113);
+    background: var(--base-Info-Blue, #3779CF);
+
     display: flex;
     justify-content: center;
     align-items: center;
     height: 32px;
     padding: 5px 16px;
-    color: var(--brand-Teal-25, #1E3B40);
-    font-family: "Bricolage Grotesque";
+    color: var(--base-White, #FFF);
+    font-feature-settings: 'salt'on;
+
+    /* p/sml */
+    font-family: Cabin;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 160%;
+    /* 22.4px */
     /* 22.4px */
     transition: 0.2s linear all;
     margin-left: auto;
@@ -1003,17 +1011,18 @@
 
 .btn_yellow_global:hover {
     border-radius: 100px;
-    background: var(--brand-yellow, #1E3B40);
+    border: 1px solid #3779CF;
+    background: var(--brand-yellow, #FFF);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 32px;
     padding: 5px 16px;
-    color: var(--brand-Teal-25, #F7C113);
-    font-family: "Bricolage Grotesque";
+    color: var(--brand-Teal-25, #3779CF);
+    font-family: Cabin;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 160%;
     /* 22.4px */
 }
@@ -1160,12 +1169,13 @@
 
 .mas2 {
     background-color: #F0F0F0;
-    /* padding-bottom: 80px; */
+    padding-bottom: 80px;
 }
 
 .mas2_tabpanel {
+    margin-top: -136px;
     position: relative;
-    top: -136px;
+    /* top: -136px; */
     z-index: 3;
 }
 
@@ -1239,8 +1249,9 @@
 }
 
 .mas2_details_panel {
+    margin-top: -136px;
     position: relative;
-    top: -136px;
+    /* top: -136px; */
     z-index: 3;
     padding: 12px;
     background: var(--base-Off-White, #FAFAFA);
@@ -1253,10 +1264,11 @@
 }
 
 .input_global_mehul {
+    /* height: 56px; */
     border-radius: 0px;
     border: 1px solid var(--base-04, #E9E9E9);
     background: var(--base-Off-White, #FAFAFA);
-    padding: 20px 24px;
+    padding: 14px 24px;
     color: var(--base-02, #727272);
 
     /* p/std */
@@ -1271,12 +1283,13 @@
 }
 
 .input_global_mehul:hover {
+    /* height: 56px; */
     border: 1px solid var(--base-Info-Blue, #3779CF);
     background: var(--base-White, #FFF);
 
     /* card shadow */
     box-shadow: 0 100px 80px 0 rgba(0, 0, 0, 0.07), 0 64.815px 46.852px 0 rgba(0, 0, 0, 0.05), 0 38.519px 25.481px 0 rgba(0, 0, 0, 0.04), 0 20px 13px 0 rgba(0, 0, 0, 0.04), 0 8.148px 6.519px 0 rgba(0, 0, 0, 0.03), 0 1.852px 3.148px 0 rgba(0, 0, 0, 0.02);
-    padding: 20px 32px;
+    padding: 14px 32px;
     color: var(--base-02, #727272);
 
     /* p/std */
@@ -1338,6 +1351,18 @@
     background: #FFFFFF;
     width: 100%;
 }
+.mas2_details_panel_left2 {
+    padding: 58px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 40px;
+    background: #FFFFFF;
+    width: 100%;
+}
+
+
 
 .mas2_detail_img_box {
     background: url(../img/divider.svg);
@@ -1359,13 +1384,14 @@
     width: 84px;
     background: var(--brand-yellow, #FFFFFF);
     color: var(--base-Off-Black, #0F0F0F);
+font-feature-settings: 'salt' on;
+/* p/sml */
+font-family: Cabin;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
 
-    /* p/sml */
-    font-family: "Bricolage Grotesque";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 160%;
     /* 22.4px */
     padding: 4px 16px;
     border: 0px;
@@ -1375,14 +1401,15 @@
 .mas2_details_panel_right_tab_button.active {
     background: var(--brand-Main-Green, #2A7E2F);
     color: var(--base-White, #FFF);
-font-feature-settings: 'salt' on;
+    font-feature-settings: 'salt'on;
 
-/* p/sml */
-font-family: Cabin;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 22.4px */
+    /* p/sml */
+    font-family: Cabin;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 22.4px */
     /* 22.4px */
     padding: 4px 16px;
     border: 0px;
@@ -1390,8 +1417,9 @@ line-height: 160%; /* 22.4px */
 }
 
 .custom_tab_pagination {
+    display: flex;
     border: 1px solid var(--base-04, #E9E9E9);
-background: var(--base-White, #FFF);
+    background: var(--base-White, #FFF);
     padding: 8px;
     width: fit-content;
 }
@@ -1468,8 +1496,8 @@ background: var(--base-White, #FFF);
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
-    background: var(--base-Off-White, #FAFAFA);
-    border-radius: 24px 24px 0px 0px;
+    background: var(--base-05, #F0F0F0);
+    /* border-radius: 24px 24px 0px 0px; */
 }
 
 .mas2_plan_card_bottom_l {
@@ -1542,7 +1570,8 @@ background: var(--base-White, #FFF);
 .mas2_pct_r .btn_yellow_global_arrow {
     padding: 0px;
     border-radius: 100px;
-    background: var(--brand-yellow, #F7C113);
+    background: var(--brand-Main-Green, #2A7E2F);
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1559,29 +1588,38 @@ background: var(--base-White, #FFF);
     align-items: center;
     gap: 4px;
     color: var(--base-White, #FFF);
-    font-family: "Bricolage Grotesque";
+    font-feature-settings: 'salt'on;
+
+    /* p/sml */
+    font-family: Cabin;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 160%;
+    /* 22.4px */
     /* 22.4px */
 }
 
 .mas2_pct_r .btn_red_expired {
     padding: 5px 16px;
     border-radius: 100px;
-    background: var(--brand-yellow, #DF3F3F);
+    background: var(--base-02, #727272);
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 4px;
     color: var(--base-White, #FFF);
-    font-family: "Bricolage Grotesque";
+    font-feature-settings: 'salt'on;
+
+    /* p/sml */
+    font-family: Cabin;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 160%;
+    /* 22.4px */
     /* 22.4px */
 }
 
@@ -1590,7 +1628,6 @@ background: var(--base-White, #FFF);
 }
 
 .mas2_plan_card {
-    border-radius: 24px;
     border: 1px solid var(--brand-yellow, #E9E9E9);
     background: var(--base-White, #FFF);
 }
@@ -1602,13 +1639,16 @@ background: var(--base-White, #FFF);
 }
 
 .mas2_plan_card.active {
-    border-radius: 24px;
-    border: 1px solid var(--brand-yellow, #F7C113);
+    border: 1px solid var(--base-Info-Blue, #3779CF);
     background: var(--base-White, #FFF);
-    box-shadow: 0 0 40px 0 rgba(247, 193, 19, 0.24);
+
+    /* Hover */
+    box-shadow: 0 0 0 4px rgba(183, 216, 250, 0.50);
 }
 
 .scroll_card_outer {
+    padding-left: 3px;
+    padding-top:3px;
     display: flex;
     /* width: 396px; */
     flex-direction: column;
@@ -1616,7 +1656,7 @@ background: var(--base-White, #FFF);
     gap: 24px;
     justify-content: flex-start;
     overflow-y: scroll;
-    height: 680px;
+    height: 658px;
     padding-right: 28px;
 }
 
@@ -1636,12 +1676,12 @@ background: var(--base-White, #FFF);
 /* Scrollbar thumb (yellow moving part) */
 .scroll_card_outer::-webkit-scrollbar-thumb {
     border-radius: 8px;
-    background: var(--brand-yellow, #F7C113);
+    background: var(--brand-yellow, #BDBDBD);
 }
 
 /* Optional hover effect */
 .scroll_card_outer::-webkit-scrollbar-thumb:hover {
-    background: #e2af0f;
+    background: #BDBDBD;
 }
 
 .daba_gul {
@@ -1652,8 +1692,11 @@ background: var(--base-White, #FFF);
 }
 
 .ddaattee {
-    color: #4DA4B2;
-    font-family: "Bricolage Grotesque";
+    color: var(--base-01, #383838);
+    font-feature-settings: 'salt'on;
+
+    /* p/sml */
+    font-family: Cabin;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -1663,14 +1706,14 @@ background: var(--base-White, #FFF);
 }
 
 .mas2_details_box_title2 {
-    color: var(--brand-Teal-25, #1E3B40);
+    color: var(--base-01, #383838);
     text-align: center;
 
     /* h/03 */
-    font-family: 'Figtree';
+    font-family: "Cal Sans";
     font-size: 32px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 120%;
     /* 38.4px */
     text-transform: capitalize;
@@ -1687,7 +1730,7 @@ background: var(--base-White, #FFF);
 
 .btn_green_trans,
 .btn_green_trans:hover {
-    border-radius: 100px;
+    border-radius: 0px;
     border: 1px solid var(--base-Success-Green, #47B147);
     display: flex;
     padding: 5px 16px;
@@ -1695,11 +1738,15 @@ background: var(--base-White, #FFF);
     align-items: center;
     gap: 4px;
     color: var(--base-Success-Green, #47B147);
-    font-family: "Bricolage Grotesque";
+    font-feature-settings: 'salt'on;
+
+    /* p/sml */
+    font-family: Cabin;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 160%;
+    /* 22.4px */
     /* 22.4px */
 }
 
@@ -1707,17 +1754,29 @@ background: var(--base-White, #FFF);
     display: flex;
     align-items: center;
     gap: 8px;
-    color: var(--brand-Teal-25, #1E3B40);
-
+    color: var(--base-01, #383838);
     /* p/btns */
+    font-family: "Cal Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 21.6px */
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    /* 21.6px */
+    letter-spacing: -0.18px;
+    padding: 0px;
+}
+
+.btn_dab_btn span {
+    color: var(--base-01, #383838);
     font-family: "Bricolage Grotesque";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
-    /* 21.6px */
     letter-spacing: -0.18px;
-    padding: 0px;
 }
 
 .mas2_detail_box_top_right {
@@ -1729,17 +1788,19 @@ background: var(--base-White, #FFF);
 }
 
 #myAccount_Accordion .accordion-item_m {
-    border-radius: 8px;
+    /* border-radius: 8px; */
     border: 0px;
 }
 
 #myAccount_Accordion .accordion-button_m:not(.collapsed),
 #myAccount_Accordion .accordion-button_m {
-    color: var(--base-White, #FFF);
-    font-family: 'Figtree';
+    color: var(--base-Off-Black, #0F0F0F);
+
+    /* h/04 */
+    font-family: "Cal Sans";
     font-size: 24px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 120%;
     /* 28.8px */
     text-transform: capitalize;
@@ -1747,48 +1808,155 @@ background: var(--base-White, #FFF);
 
 #myAccount_Accordion .accordion-button_m:not(.collapsed),
 #myAccount_Accordion .accordion-button_m {
-    background-color: var(--brand-Teal-50, #316972);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    background: var(--base-04, #E9E9E9);
+    border-radius: 0px;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+}
+
+/* Base styles */
+#myAccount_Accordion .accordion-button_m::after {
+    content: "";
+    height: 32px;
+    width: 32px;
+    border-radius: 100px;
+    background-color: var(--brand-Main-Green, #2A7E2F);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+
+    /* PLUS icon (default = closed) */
+    background-image: url('/img/plus.svg');
+    /* change path */
+}
+
+/* When OPEN → show MINUS */
+#myAccount_Accordion .accordion-button_m:not(.collapsed)::after {
+    background-color: var(--brand-yellow, #FFF);
+
+    background-image: url('/img/minus.svg');
+    /* change path */
 }
 
 #myAccount_Accordion .accordion-button_m:not(.collapsed)::after,
 #myAccount_Accordion .accordion-button_m::after {
     border-radius: 100px;
-    background-color: var(--brand-yellow, #F7C113);
+    /* background-color: var(--brand-yellow, #FFF); */
     height: 32px;
     width: 32px;
     background-position: center;
 }
 
 #myAccount_Accordion .accordion-body_m {
+    padding: 32px 24px;
     background: #FAFAFA;
-    padding: 24px 32px;
 }
 
 #myAccount_Accordion .accordion-body_m .custom-faq-accordion .accordion-item,
 #myAccount_Accordion .custom-faq-accordion .accordion-button,
 #myAccount_Accordion .custom-faq-accordion .accordion-body {
     background: transparent;
+    border: 0;
+}
+
+#myAccount_Accordion .accordion-item {
+    border-bottom: 1px solid var(--base-04, #E9E9E9) !important;
+
+
+}
+
+#myAccount_Accordion .accordion-item:last-of-type {
+    border-bottom: 0px !important;
+
+
+}
+
+#myAccount_Accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+#myAccount_Accordion .custom-faq-accordion .accordion-button.collapsed {
+    padding: 24px 0px 32px 16px;
+}
+
+/* Open state */
+#myAccount_Accordion .custom-faq-accordion .accordion-button:not(.collapsed) {
+    padding: 24px 0px 8px 16px;
+    /* your desired padding */
+}
+
+/* FIRST accordion button - open */
+#myAccount_Accordion .custom-faq-accordion .accordion-item:first-of-type .accordion-button:not(.collapsed) {
+    padding: 0px 0px 8px 16px;
+}
+
+/* LAST accordion button - open */
+#myAccount_Accordion .custom-faq-accordion .accordion-item:last-of-type .accordion-button:not(.collapsed) {
+    padding: 24px 0px 8px 16px;
+    border-bottom: 0px;
+}
+
+/* FIRST - closed */
+#myAccount_Accordion .custom-faq-accordion .accordion-item:first-of-type .accordion-button.collapsed {
+    padding: 0px 0px 32px 16px;
+}
+
+/* LAST - closed */
+#myAccount_Accordion .custom-faq-accordion .accordion-item:last-of-type .accordion-button.collapsed {
+    padding: 24px 0px 0px 16px;
+    border-bottom: 0px !important;
+}
+
+#myAccount_Accordion .accordion-body {
+    padding: 0px 58px 32px 0px;
+    color: var(--base-02, #727272);
+
+    /* p/std */
+    font-family: Cabin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
+}
+
+.faq-text {
+    color: var(--base-01, #383838);
+    font-feature-settings: 'ss01'on;
+
+    /* p/lrg */
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+}
+
+#myAccount_Accordion .accordion-button:not(.collapsed) {
+    box-shadow: none;
 }
 
 .mas2_db3_cbr_l {
-    color: var(--brand-Teal-50, #316972);
-    font-family: "Bricolage Grotesque";
+    color: var(--base-02, #727272);
+
+    /* p/std */
+    font-family: Cabin;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 160%;
     /* 25.6px */
     margin-bottom: 0px;
 }
 
 .mas2_db3_cbr_r {
-    color: var(--brand-Teal-50, #316972);
+    color: var(--base-01, #383838);
     text-align: right;
 
     /* p/std */
-    font-family: "Bricolage Grotesque";
+    font-family: Cabin;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1813,11 +1981,13 @@ background: var(--base-White, #FFF);
 }
 
 .mas2_details_box3_title {
-    color: var(--base-White, #FFF);
-    font-family: 'Figtree';
+    color: var(--base-Off-Black, #0F0F0F);
+
+    /* h/04 */
+    font-family: "Cal Sans";
     font-size: 24px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 120%;
     /* 28.8px */
     text-transform: capitalize;
@@ -1825,14 +1995,12 @@ background: var(--base-White, #FFF);
 }
 
 .mas2_details_box3_card_head {
-    background: var(--brand-Teal-50, #316972);
+    background: var(--base-04, #E9E9E9);
     padding: 24px;
-    border-radius: 8px 8px 0 0;
 }
 
 .mas2_details_box3_card_body {
     background: var(--base-Off-White, #FAFAFA);
-    border-radius: 0 0 8px 8px;
 }
 
 .mas2_detail_box3 {
@@ -1848,6 +2016,26 @@ background: var(--base-White, #FFF);
 }
 
 @media only screen and (max-width: 600px) {
+
+    .mas2_details_panel_right_tab_button {
+        width: auto;
+    }
+
+    .daba_gul {
+        flex-direction: column;
+    }
+    .mas2_details_panel_left2 {
+        padding: 32px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 24px;
+        padding: 32px 24px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        width: 100%;
+    }
 
     .pls1 {
         min-height: 506px;
@@ -2014,7 +2202,7 @@ background: var(--base-White, #FFF);
         background-repeat: no-repeat;
         background-position: center center;
         background-color: #ffffff;
-        z-index: 2;
+        z-index: 4;
         position: sticky;
     }
 
@@ -2042,8 +2230,9 @@ background: var(--base-White, #FFF);
 
     .mas2_tabpanel {
         position: relative;
-        top: -18px;
+        /* top: -18px; */
         z-index: 3;
+        margin-top: 0px;
     }
 
     .ohs2_box {
@@ -2109,9 +2298,14 @@ background: var(--base-White, #FFF);
 
     .mas2 {
         background-color: #ffffff;
+        padding-bottom: 0px;
+    }
+    .orderhistory_padd .mas2 {
+        padding-bottom: 0px;
     }
 
     .mas2_details_panel {
+        margin-top: unset;
         position: relative;
         top: -18px;
         z-index: 3;
@@ -2145,7 +2339,7 @@ background: var(--base-White, #FFF);
     }
 
     .mas2_detail_img_box {
-        background: url(../img/myImg/account_divider_mobo.png);
+        background: url(../img/divider_mob.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
@@ -2153,7 +2347,7 @@ background: var(--base-White, #FFF);
     }
 
     .input_global_mehul {
-        padding: 15px 24px;
+        padding: 14px 24px;
     }
 
     .mas2_details_panel_right {
@@ -2199,7 +2393,6 @@ background: var(--base-White, #FFF);
     }
 
     .custom_tab_pagination {
-        border-radius: 100px;
         border: 1px solid var(--base-04, #E9E9E9);
         background: var(--base-White, #FFF);
         padding: 7px;
@@ -2260,7 +2453,7 @@ background: var(--base-White, #FFF);
 
     .mas2_details_panel .mas2_details_panel_right,
     .mas2_details_panel_ind .mas2_details_panel_right {
-        padding: 56px 32px 0px 32px;
+        padding: 32px 24px 0px 24px;
         width: 100%;
         max-width: unset;
     }
@@ -2287,7 +2480,7 @@ background: var(--base-White, #FFF);
 
     .mas2_details_panel .mas2_details_panel_right,
     .mas2_details_panel_ind .mas2_details_panel_right {
-        padding: 56px 32px 0px 32px;
+        padding: 32px 24px 0px 24px;
         width: 100%;
         max-width: unset;
     }
