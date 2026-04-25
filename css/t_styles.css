@@ -2347,9 +2347,9 @@ line-height: 160%; /* 22.4px */
     }
 
     .mas2_details_panel {
-        margin-top: unset;
+        margin-top: -18px;
         position: relative;
-        top: -18px;
+        /* top: -18px; */
         z-index: 3;
 
         display: flex;
@@ -2396,6 +2396,7 @@ line-height: 160%; /* 22.4px */
         padding: 32px 24px;
         width: 100%;
         max-width: 500px;
+        background: var(--base-Off-White, #FAFAFA);
     }
 
     /* Scrollbar width */
@@ -2500,7 +2501,13 @@ line-height: 160%; /* 22.4px */
         max-width: unset;
     }
     .mas2_details_panel_right {
-        padding: 32px 24px 0px 24px!important;
+        padding: 32px 24px 32px 24px!important;
+    }
+    .difernt_top {
+        margin-top: 0px;
+    }
+    .scroll_card_outer {
+        padding: 3px
     }
 
 }
