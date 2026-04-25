@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="uiframe/css/slick.css">
     <link rel="stylesheet" href="uiframe/css/slick-theme.css">
     <link rel="stylesheet" href="css/t_styles.css">
-    <link rel="stylesheet" href="css/rstyle.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/rstyle.css">
     <link rel="stylesheet" href="uiframe/css/font-awesome.min.css">
     <link rel="stylesheet" href="uiframe/css/animate.min.css">
     <link href="uiframe/css/aos.css" rel="stylesheet">
@@ -30,7 +30,7 @@
       <nav class="navbar navbar-expand-lg">
           <div class="container">
             <a class="navbar-brand" href="#">
-              <img src="./img/hlogo.svg" alt="Simseekr Logo" class="img-fluid">
+              <img src="./img/hlogo.svg" alt="Simseekr Logo" id="logo" class="img-fluid ">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
