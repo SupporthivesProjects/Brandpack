@@ -26,9 +26,11 @@
 <!-- Home Section 2 End -->
  
 <!-- Home Section 3 Start -->
-<!-- <section>
+<section class="home_s3">
+    <div class="home_c3">
 
-</section> -->
+    </div>
+</section>
 <!-- Home Section 3 End -->
 
 <!-- Home Section 4 Start -->

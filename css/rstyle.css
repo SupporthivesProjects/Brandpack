@@ -89,6 +89,41 @@ section{
     bottom: 10px;
     right: 25%;
 }
+.home_s3{
+    padding: 128px 0px 80px 0px;
+    background-image: url(../img/home_s3bg.png);
+}
+.home_c3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.home_s3titlebar{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.home_s3title{
+    color: var(--base-White, #FFF);
+    text-align: center;
+    font-family: "Cal Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.home_s3subtitle{
+    color: var(--base-05, #F0F0F0);
+    text-align: center;
+    font-family: Cabin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 0px;
+}
 /* Home Page End */
 
 
