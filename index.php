@@ -169,6 +169,56 @@
 </section>
 <!-- Home Section 4 End -->
 
+<!-- Home Section 5 Start -->
+<section class="home_s5">
+    <img class="home_s5v1 mobile_none" src="./img/home_s5v1.png">
+    <div class="home_c5 container">
+        <div class="home_c5inner">
+            <div class="home_s5top">
+                <h2 class="home_s5title">Why choose us?</h2>
+                <p class="home_s5subtitle">Stay connected wherever your journey takes you, without the friction of roaming fees or physical SIM cards. Our eSIM technology gives you instant access to reliable mobile networks worldwide, so you can navigate, communicate, and explore.</p>
+            </div>
+            <div class="home_s5mid">
+                <div class="home_s5midrow">
+                    <div class="home_s5card">
+                        <div class="home_s5cardtitlebar">
+                            <img src="./img/home_s5c1.svg">
+                            <h4 class="home_s5cardtitle">Instant activation</h4>
+                        </div>
+                        <p class="home_s5cardsubtitle">Install your eSIM in seconds and connect immediately. No waiting, no stores, and no physical SIM required.</p>
+                    </div>
+                    <div class="home_s5card">
+                        <div class="home_s5cardtitlebar">
+                            <img src="./img/home_s5c2.svg">
+                            <h4 class="home_s5cardtitle">Global coverage</h4>
+                        </div>
+                        <p class="home_s5cardsubtitle">Access trusted mobile networks in countries around the world, with plans tailored to your destination.</p>
+                    </div>
+                </div>
+                <div class="home_s5midrow">
+                    <div class="home_s5card">
+                        <div class="home_s5cardtitlebar">
+                            <img src="./img/home_s5c3.svg">
+                            <h4 class="home_s5cardtitle">Reliable connection</h4>
+                        </div>
+                        <p class="home_s5cardsubtitle">Enjoy fast, stable mobile data wherever you travel, so you can stay connected when it matters most.</p>
+                    </div>
+                    <div class="home_s5card">
+                        <div class="home_s5cardtitlebar">
+                            <img src="./img/home_s5c4.svg">
+                            <h4 class="home_s5cardtitle">Built for travellers</h4>
+                        </div>
+                        <p class="home_s5cardsubtitle">Designed for movement, flexibility, and freedom. Your connection moves with you, across borders and continents.</p>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn curve_greenbtn"><img src="./img/curve_btnleft.svg"><p class="curvegreen_btntext">get started</p><img src="./img/curve_btnright.svg"></button>
+            <img class="desktop_none" src="./img/home_s5imgmob.png">
+        </div>
+    </div>
+
+</section>
+<!-- Home Section 5 End -->
 
 <!-- Category Script -->
  <script>
