@@ -1,7 +1,9 @@
 <?php include 'includes/header.php'; ?>
 <!-- Home Section 1 Start -->
-<section>
-
+<section class="home_s1">
+    <div class="home_c1">
+        
+    </div>
 </section>
 <!-- Home Section 1 End -->
 
