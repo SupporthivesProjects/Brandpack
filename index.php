@@ -1,7 +1,62 @@
 <?php include 'includes/header.php'; ?>
 <!-- Home Section 1 Start -->
-<section>
-
+<section class="home_s1">
+    <div class="home_c1">
+        <h1 class="home_s1title">Your Ticket to a World<br>That Stays Online</h1>
+    </div>
+    <div class="homescroll_mainout">
+        <div class="homescroll_main">
+            <img class="home_scrollimg" src="./img/home_scrollimg.png">
+            <div class="home_scrollcontentmain">
+                <div class="home_scrollsubtitlebar">
+                    <p class="home_s1subtitle">Explore country after country without losing connection, swapping SIMs, or slowing down along the way.</p>
+                    <button type="button" class="btn curve_greenbtn"><img src="./img/curve_btnleft.svg"><p class="curvegreen_btntext">Explore all plans</p><img src="./img/curve_btnright.svg"></button>
+                </div>
+            </div>
+            <div class="home_s1videomain">
+                <video autoplay muted loop playsinline class="bg-video">
+                    <source src="./img/home_s1video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="home_s1bottom">
+        <div class="home_leftcurve"></div>
+        <div class="home_rightcurve"></div>
+        <div class="home_s1bottomcardbar">
+            <div class="home_s1bottomcard">
+                <h1 class="home_s1bottomcardnumber">1.</h1>
+                <div class="home_s1bottomcardtitlebar">
+                    <h4 class="home_s1bottomcardtitle">Choose your plan</h4>
+                    <p class="home_s1bottomcardsubtitle">Select your destination and pick the data plan that suits your trip.</p>
+                </div>
+            </div>
+            <div class="home_s1bottomcardline"></div>
+            <div class="home_s1bottomcard">
+                <h1 class="home_s1bottomcardnumber">2.</h1>
+                <div class="home_s1bottomcardtitlebar">
+                    <h4 class="home_s1bottomcardtitle">Install your eSIM</h4>
+                    <p class="home_s1bottomcardsubtitle">Follow the simple setup instructions to add your eSIM in just a few taps.</p>
+                </div>
+            </div>
+            <div class="home_s1bottomcardline"></div>
+            <div class="home_s1bottomcard">
+                <h1 class="home_s1bottomcardnumber">3.</h1>
+                <div class="home_s1bottomcardtitlebar">
+                    <h4 class="home_s1bottomcardtitle">Activate on arrival</h4>
+                    <p class="home_s1bottomcardsubtitle">Switch it on when you land and get online without the usual hassle.</p>
+                </div>
+            </div>
+            <div class="home_s1bottomcardline"></div>
+            <div class="home_s1bottomcard">
+                <h1 class="home_s1bottomcardnumber">4.</h1>
+                <div class="home_s1bottomcardtitlebar">
+                    <h4 class="home_s1bottomcardtitle">Stay connected</h4>
+                    <p class="home_s1bottomcardsubtitle">Use your data across your journey for maps, messages, bookings, and more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Home Section 1 End -->
 
