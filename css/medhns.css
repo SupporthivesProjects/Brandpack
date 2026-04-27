@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.privacy-hero {
+.compatibility-hero {
     min-height: 600px;
     background: url('../img/privarcy-bg.png') no-repeat center center/cover;
     display: flex;
@@ -14,25 +14,25 @@ body {
     padding: 100px 0 60px;
 }
 
-.privacy-hero-content {
+.compatibility-hero-content {
     max-width: 720px;
 }
 
-.privacy-hero-title {
+.compatibility-hero-title {
     font-size: 60px;
     font-weight: 600;
     color: #111;
     letter-spacing: -1px;
 }
 
-.privacy-hero-subtitle {
+.compatibility-hero-subtitle {
     font-size: 15px;
     color: #6c757d;
     margin-top: 12px;
     line-height: 1.6;
 }
 
-.privacy-devices {
+.compatibility-devices {
     background: #fff;
     padding: 60px 0 100px;
     height: 100%;
@@ -42,18 +42,18 @@ body {
     max-width: 1000px;
 }
 
-.privacy-device-heading {
+.compatibility-device-heading {
     font-weight: 600;
     font-size: 15px;
     color: #6b6b6b;
     margin-bottom: 6px;
 }
 
-.privacy-sub-heading {
+.compatibility-sub-heading {
     color: #6b6b6b;
 }
 
-.privacy-device-list {
+.compatibility-device-list {
     list-style: disc;
     padding-left: 30px;
     color: #6b6b6b;
@@ -121,11 +121,11 @@ body {
 
 @media (max-width: 1024px) {
 
-    .privacy-devices {
+    .compatibility-devices {
         padding: 40px 15px 200px;
     }
 
-    .privacy-devices .col-lg-4 {
+    .compatibility-devices .col-lg-4 {
         padding: 0;
         margin-bottom: 0 !important;
     }
@@ -134,17 +134,17 @@ body {
         max-width: 100%;
     }
 
-    .privacy-device-heading {
+    .compatibility-device-heading {
         font-size: 16px;
         margin-top: 12px;
     }
 
-    .privacy-sub-heading {
+    .compatibility-sub-heading {
         font-size: 14px;
         margin-top: 6px;
     }
 
-    .privacy-device-list {
+    .compatibility-device-list {
         font-size: 13px;
         padding-left: 18px;
     }
@@ -154,24 +154,24 @@ body {
 @media (max-width: 768px) {
 
     /* HERO */
-    .privacy-hero {
+    .compatibility-hero {
         min-height: 100%;
         
         margin-top: 70px;
     }
 
-    .privacy-hero-title {
+    .compatibility-hero-title {
         font-size: 32px;
         line-height: 1.2;
     }
 
-    .privacy-hero-subtitle {
+    .compatibility-hero-subtitle {
         font-size: 14px;
         padding: 0 10px;
     }
 
     /* DEVICES */
-    .privacy-devices {
+    .compatibility-devices {
         padding: 40px 15px 80px;
     }
 
@@ -179,30 +179,30 @@ body {
         max-width: 100%;
     }
 
-    .privacy-devices .col-lg-4 {
+    .compatibility-devices .col-lg-4 {
         padding: 0;
     }
 
-    .privacy-devices .mb-4 {
+    .compatibility-devices .mb-4 {
         margin-bottom: 0 !important;
     }
 
-    .privacy-device-heading {
+    .compatibility-device-heading {
         font-size: 16px;
         margin-top: 15px;
     }
 
-    .privacy-sub-heading {
+    .compatibility-sub-heading {
         font-size: 14px;
     }
 
-    .privacy-device-list {
+    .compatibility-device-list {
         font-size: 13px;
         line-height: 1.8;
         margin: 0;
     }
 
-    .privacy-device-list li {
+    .compatibility-device-list li {
         margin-bottom: 4px;
     }
 
@@ -238,13 +238,13 @@ body {
 
 @media (max-width: 991px) {
 
-    .privacy-devices .row {
+    .compatibility-devices .row {
         display: block !important;
     }
 
-    .privacy-devices .col-lg-4,
-    .privacy-devices .col-md-6,
-    .privacy-devices .col-md-4 {
+    .compatibility-devices .col-lg-4,
+    .compatibility-devices .col-md-6,
+    .compatibility-devices .col-md-4 {
         width: 100% !important;
         max-width: 100% !important;
         flex: 0 0 100% !important;
