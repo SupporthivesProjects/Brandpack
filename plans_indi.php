@@ -272,71 +272,52 @@
 
 </section>
 
-<section class="indi-ready-arrive">
-    <div class="container px-0">
+<section class="indi_mid_steps">
+    <div class="indi_mid_steps_container">
 
-        <div class="col">
-            <div class="indi-ready-title">
-                <h1>Connected Before You Land</h1>
-                <p class="d-lg-block d-md-block d-none">
-                    Get online in three simple steps. Choose your destination, install your eSIM in seconds, and enjoy
-                    seamless mobile data from the moment you arrive.
-                </p>
-                <p class="d-block d-lg-none d-md-none">
-                    Get connected in three simple steps. Choose your destination,
-                    install your eSIM in seconds, and enjoy seamless mobile data wherever you arrive.
-                </p>
-            </div>
+        <div class="indi_mid_steps_header">
+            <h2 class="indi_mid_steps_title">Connected Before&nbsp;You&nbsp;Land</h2>
+            <p class="indi_mid_steps_subtitle">
+                Get online in three simple steps. Choose your destination, install your eSIM in
+                seconds, and enjoy seamless mobile data from the moment you arrive.
+            </p>
         </div>
 
-        <div class="container indi-ready-bg px-0">
-            <div class="indi-ready-icons">
-                <div class="col">
-                    <div class="row">
+        <div class="indi_mid_steps_cards">
 
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div class="indi-step-card">
-                                <img src="./img/step_1.png" class="img-fluid">
-                                <div class="indi-step-details">
-                                    <h6>Step 1</h6>
-                                    <h4>Choose your plan</h4>
-                                    <p>
-                                        Select your destination and pick
-                                        the data plan that suits your trip.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div class="indi-step-card">
-                                <img src="./img/step_2.png" class="img-fluid">
-                                <div class="indi-step-details">
-                                    <h6>Step 2</h6>
-                                    <h4>Install your eSIM</h4>
-                                    <p>
-                                        Scan the QR code and install your eSIM in seconds. No physical SIM.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                            <div class="indi-step-card mb-0">
-                                <img src="./img/step_3.png" class="img-fluid">
-                                <div class="indi-step-details">
-                                    <h6>Step 3</h6>
-                                    <h4>Connect instantly</h4>
-                                    <p>
-                                        Activate your eSIM and enjoy fast, reliable mobile data anywhere.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+            <div class="indi_mid_steps_card w-100">
+                <img src="./img/home_s3c1.svg">
+                <div class="indi_mid_steps_card_content">
+                    <p class="indi_mid_steps_step">Step 1</p>
+                    <h3 class="indi_mid_steps_card_title">Pick your plan</h3>
+                    <p class="indi_mid_steps_card_subtitle">
+                        Select your destination and pick the data plan that suits your trip.
+                    </p>
                 </div>
             </div>
+
+            <div class="indi_mid_steps_card w-100">
+                <img src="./img/home_s3c2.svg">
+                <div class="indi_mid_steps_card_content">
+                    <p class="indi_mid_steps_step">Step 2</p>
+                    <h3 class="indi_mid_steps_card_title">Install your eSIM</h3>
+                    <p class="indi_mid_steps_card_subtitle">
+                        Quick and easy setup in seconds—no physical SIM required.
+                    </p>
+                </div>
+            </div>
+
+            <div class="indi_mid_steps_card w-100">
+                <img src="./img/home_s3c3.svg">
+                <div class="indi_mid_steps_card_content">
+                    <p class="indi_mid_steps_step">Step 3</p>
+                    <h3 class="indi_mid_steps_card_title">Stay connected</h3>
+                    <p class="indi_mid_steps_card_subtitle">
+                        Enjoy seamless internet as soon as you land.
+                    </p>
+                </div>
+            </div>
+
         </div>
 
     </div>
@@ -344,6 +325,8 @@
 
 <section class="faqq">
     <div class="faqqq-help_3">
+        <img src="./img/last_rgt_mob.png" alt="" class="last_img d-lg-none d-md-none d-block">
+
         <div class="container p-0">
             <h4 class="faqqq">Got Questions?</h4>
             <div class="faq-wrapper">
@@ -351,12 +334,17 @@
 
                     <!-- 1 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                        <h2 class="accordion-header" id="faqHeading1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+
                                 What is an eSIM?
                             </button>
                         </h2>
-                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+
+                        <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1"
+                            data-bs-parent="#faqAccordion">
+
                             <div class="accordion-body">
                                 An eSIM is a digital SIM built directly into your phone, allowing you to install mobile
                                 data instantly without inserting anything physical. Instead of swapping SIM cards, you
@@ -368,12 +356,17 @@
 
                     <!-- 2 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+                        <h2 class="accordion-header" id="faqHeading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+
                                 How do I install my eSIM?
                             </button>
                         </h2>
-                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+                        <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+                            data-bs-parent="#faqAccordion">
+
                             <div class="accordion-body">
                                 After purchase, you’ll receive a QR code by email. Open your phone settings, scan the
                                 code, and your eSIM installs automatically in seconds. No store visits, no waiting, and
@@ -385,12 +378,17 @@
 
                     <!-- 3 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+                        <h2 class="accordion-header" id="faqHeading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+
                                 When should I install my eSIM?
                             </button>
                         </h2>
-                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+                        <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
+                            data-bs-parent="#faqAccordion">
+
                             <div class="accordion-body">
                                 You can install your eSIM at any time before travelling. Installation prepares your
                                 device, but activation typically begins when you arrive and connect to a supported
@@ -402,12 +400,17 @@
 
                     <!-- 4 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+                        <h2 class="accordion-header" id="faqHeading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+
                                 Will my normal SIM still work?
                             </button>
                         </h2>
-                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+                        <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                            data-bs-parent="#faqAccordion">
+
                             <div class="accordion-body">
                                 Yes. Your physical SIM remains active for calls and messages, while your eSIM handles
                                 mobile data. This allows you to keep your number and stay reachable while using fast,
@@ -418,29 +421,38 @@
 
                     <!-- 5 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">
+                        <h2 class="accordion-header" id="faqHeading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+
                                 What devices support eSIM?
                             </button>
                         </h2>
-                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+                        <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                            data-bs-parent="#faqAccordion">
+
                             <div class="accordion-body">
                                 Most recent smartphones support eSIM, including newer iPhone, Samsung Galaxy, and Google
                                 Pixel models. Many tablets and some laptops also support eSIM. Check your device
-                                settings or our compatibility list to confirm support before purchasing a plan. Or check
-                                compatibility.
+                                settings or our compatibility list to confirm support before purchasing a plan.
                             </div>
                         </div>
                     </div>
 
                     <!-- 6 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq6">
+                        <h2 class="accordion-header" id="faqHeading6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+
                                 Can I use eSIM in multiple countries?
                             </button>
                         </h2>
-                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+                        <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                            data-bs-parent="#faqAccordion">
+
                             <div class="accordion-body">
                                 Yes. You can choose plans for individual countries, regions, or global coverage
                                 depending on your travel needs. Regional and global plans allow you to stay connected
@@ -451,12 +463,17 @@
 
                     <!-- 7 -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq7">
+                        <h2 class="accordion-header" id="faqHeading7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+
                                 What if I have connection issues?
                             </button>
                         </h2>
-                        <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+                        <div id="faq7" class="accordion-collapse collapse" aria-labelledby="faqHeading7"
+                            data-bs-parent="#faqAccordion">
+
                             <div class="accordion-body">
                                 First, ensure your eSIM is enabled and data roaming is turned on in your settings.
                                 Restarting your device often resolves most issues. If problems continue, our support
@@ -470,7 +487,6 @@
 
         </div>
         <img src="./img/last_rgt_sec.png" alt="" class="last_img d-lg-block d-md-block d-none img-fluid">
-        <img src="./img/last_rgt_mob.png" alt="" class="last_img d-lg-none d-md-none d-block">
     </div>
 </section>
 
@@ -491,18 +507,18 @@
                 </div>
 
                 <!-- TITLE -->
-                <h3 class="modal_indi-title">Added To Cart</h3>
+                <h3 class="modal_indi-title">E-sim Added to cart</h3>
 
                 <!-- CARD -->
                 <div class="modal_indi-card-box">
 
                     <div class="modal_indi-card-top">
                         <div class="modal_indi-country">
-                            <img src="./img/brazil.png" class="modal_indi-flag">
+                            <img src="./img/brazil.svg" class="modal_indi-flag">
                             <span id="modalCountry">Brazil</span>
                         </div>
                         <div class="modal_indi-status">
-                            <img src="./img/green_tick.svg" class="modal_indi_green_tick">
+                            <img src="./img/green_tick.png" class="modal_indi_green_tick">
                             <span id="modalCountry">Ready</span>
                         </div>
                     </div>
@@ -512,7 +528,7 @@
                         <!-- DATA -->
                         <div class="modal_indi-info">
                             <div class="modal_indi-info-title">
-                                <img src="./img/transfer.svg" class="modal_indi-icon">
+                                <img src="./img/transfer.png" class="modal_indi-icon">
                                 <span id="modalData">20 GB</span>
                             </div>
                             <div class="fill_bar">
@@ -527,7 +543,7 @@
                         <!-- DAYS -->
                         <div class="modal_indi-info">
                             <div class="modal_indi-info-title">
-                                <img src="./img/time.svg" class="modal_indi-icon">
+                                <img src="./img/time.png" class="modal_indi-icon">
                                 <span id="modalDays">30 days</span>
                             </div>
                             <div class="fill_bar">
@@ -574,10 +590,10 @@
                 <!-- Search -->
                 <div class="md_search">
                     <input type="text" id="md_search_input" placeholder="Search">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path
-                            d="M21 21L16.1667 16.1667M9.88889 4.33333C12.9571 4.33333 15.4444 6.82064 15.4444 9.88889M18.7778 9.88889C18.7778 14.7981 14.7981 18.7778 9.88889 18.7778C4.97969 18.7778 1 14.7981 1 9.88889C1 4.97969 4.97969 1 9.88889 1C14.7981 1 18.7778 4.97969 18.7778 9.88889Z"
-                            stroke="#4DA4B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            d="M14.25 2.25C10.1162 2.25 6.75 5.61621 6.75 9.75C6.75 11.5459 7.37988 13.1924 8.4375 14.4844L2.46094 20.4609L3.53906 21.5391L9.51562 15.5625C10.8076 16.6201 12.4541 17.25 14.25 17.25C18.3838 17.25 21.75 13.8838 21.75 9.75C21.75 5.61621 18.3838 2.25 14.25 2.25ZM14.25 3.75C17.5723 3.75 20.25 6.42773 20.25 9.75C20.25 13.0723 17.5723 15.75 14.25 15.75C10.9277 15.75 8.25 13.0723 8.25 9.75C8.25 6.42773 10.9277 3.75 14.25 3.75Z"
+                            fill="#383838" />
                     </svg>
                 </div>
 
@@ -706,7 +722,7 @@
 
 
                 <!-- Footer -->
-                <button class="md_btn" data-bs-dismiss="modal">Close</button>
+                <button class="modal_indi-btn-secondary" data-bs-dismiss="modal">Close</button>
 
 
             </div>
