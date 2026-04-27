@@ -5,6 +5,70 @@
 .mobile_none {
     display: block;
 }
+.indi-cart-btn {
+    position: relative;
+    background-image: url(../img/Btn.png);
+    background-color: #ffffff;
+    color: #FFF;
+    text-align: center;
+    font-family: "Cal Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 1;
+    min-width: 200px;
+    height: 52px;
+    overflow: hidden;
+    border: none;
+    margin-top: 32px;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: scale(1);
+  }
+  
+  .indi-cart-btn:hover {
+    background-image: url(../img/Btn_hov.png);
+    transform: scale(1.08);
+    width: 246px;
+    height: 70px;
+    padding-bottom: 10px;
+  }
+
+  .curve_greenbtn{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    padding: 4px 0px 0px 0px;
+    height: 52px;
+}
+.curve_greenbtn:hover{
+    padding: 0px;
+}
+.curve_greenbtn:hover .curvegreen_btntext{
+    padding: 0px;
+}
+.curvegreen_btntext{
+    color: var(--base-White, #FFF);
+    text-align: center;
+    font-family: "Cal Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    margin: 0px;
+    background-color: #2A7E2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+}
+
 .tirthqak_pagination {
     margin-top: 24px;
     display: flex;
@@ -254,6 +318,8 @@
 .up_left {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .up_left h1 {
