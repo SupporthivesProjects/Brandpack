@@ -1,0 +1,632 @@
+
+<?php include 'includes/header.php'; ?>
+
+
+   <Maindiv class="mas_main">
+    <div class="mas1">
+        <div class="mas1_inner">
+            <h1 class="mas1_title">My Brazil eSIM</h1>
+            <p class="mas1_subtitle"><a href="#">Dashboard</a> > Brazil eSIM.</p>
+        </div>
+    </div>
+    <div class="mas2">
+        <div class="mas2_details_panel mas2_details_panel_ind">
+            <div class="mas2_details_panel_left2">
+                <div class="mas2_detail_box">
+                    <div class="mas2_detail_box_top">
+                        <div class="mas2_detail_box_top_left">
+                            <h1 class="mas2_details_box_title2">Details</h1>
+                            <button class="btn btn_green_trans">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M13.3327 4L5.99935 11.3333L2.66602 8" stroke="#47B147" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Ready
+                            </button>
+                        </div>
+                        <div class="mas2_detail_box_top_right">
+                            
+                            <button class="btn btn_dab_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M19.5307 2C18.8915 2 18.2654 2.24772 17.7828 2.73012L9.51315 10.97L9.33053 11.1525L9.27836 11.4133L8.70444 14.3338L8.44357 15.5593L9.66967 15.2986L12.5914 14.7249L12.8523 14.6728L13.0349 14.4902L21.2785 6.22425C22.2405 5.26271 22.2405 3.69166 21.2785 2.73012C20.7959 2.24772 20.1698 2 19.5307 2ZM19.5307 3.61669C19.7263 3.61669 19.9187 3.71773 20.1046 3.90352C20.4763 4.2751 20.4763 4.67927 20.1046 5.05085L12.0175 13.1343L10.5827 13.4211L10.8697 11.987L18.9568 3.90352C19.1426 3.71773 19.335 3.61669 19.5307 3.61669ZM2 5.3116V22H18.6959V10.9961L17.0263 12.6649V20.3312H3.66959V6.98044H11.3393L13.0088 5.3116H2Z" fill="#51AF5E"/>
+                                  </svg>
+                                Rename <span>eSIM</span>
+                            </button>
+                            <button class="btn btn_dab_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M10.5 3C10.1074 3 9.70605 3.1377 9.42188 3.42188C9.1377 3.70605 9 4.10742 9 4.5V5.25H4.5V6.75H5.25V18.75C5.25 19.9834 6.2666 21 7.5 21H16.5C17.7334 21 18.75 19.9834 18.75 18.75V6.75H19.5V5.25H15V4.5C15 4.10742 14.8623 3.70605 14.5781 3.42188C14.2939 3.1377 13.8926 3 13.5 3H10.5ZM10.5 4.5H13.5V5.25H10.5V4.5ZM6.75 6.75H17.25V18.75C17.25 19.166 16.916 19.5 16.5 19.5H7.5C7.08398 19.5 6.75 19.166 6.75 18.75V6.75ZM8.25 9V17.25H9.75V9H8.25ZM11.25 9V17.25H12.75V9H11.25ZM14.25 9V17.25H15.75V9H14.25Z" fill="#DF3F3F"/>
+                                  </svg>
+                                Delete <span>eSIM</span>
+                            </button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="mas2_detail_box2">
+                    <div class="accordion" id="myAccount_Accordion">
+                        <div class="accordion-item accordion-item_m">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button accordion-button_m" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Installation guide
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body_m">
+                                    <div class="accordion custom-faq-accordion" id="faqAccordion">
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#faq1">
+                                                    <span class="faq-text">1. Open Settings on Your Device</span>
+
+                                                    <span class="faq-icon">
+                                                        <span class="line horizontal"></span>
+                                                        <span class="line vertical"></span>
+                                                    </span>
+                                                </button>
+                                            </h2>
+
+                                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                                <div class="accordion-body">
+                                                    On your phone, go to the mobile network settings (Cellular / Mobile Data / Connections depending on your device).
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#faq2">
+                                                    <span class="faq-text">2. Choose to Add eSIM</span>
+
+                                                    <span class="faq-icon">
+                                                        <span class="line horizontal"></span>
+                                                        <span class="line vertical"></span>
+                                                    </span>
+                                                </button>
+                                            </h2>
+
+                                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                                <div class="accordion-body">
+                                                    On your phone, go to the mobile network settings (Cellular / Mobile Data / Connections depending on your device).
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#faq3">
+                                                    <span class="faq-text">3. Scan the QR Code Here</span>
+
+                                                    <span class="faq-icon">
+                                                        <span class="line horizontal"></span>
+                                                        <span class="line vertical"></span>
+                                                    </span>
+                                                </button>
+                                            </h2>
+
+                                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                                <div class="accordion-body">
+                                                    On your phone, go to the mobile network settings (Cellular / Mobile Data / Connections depending on your device).
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#faq4">
+                                                    <span class="faq-text">4. Confirm Installation</span>
+
+                                                    <span class="faq-icon">
+                                                        <span class="line horizontal"></span>
+                                                        <span class="line vertical"></span>
+                                                    </span>
+                                                </button>
+                                            </h2>
+
+                                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                                <div class="accordion-body">
+                                                    On your phone, go to the mobile network settings (Cellular / Mobile Data / Connections depending on your device).
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#faq5">
+                                                    <span class="faq-text">5. Enable Your New eSIM</span>
+
+                                                    <span class="faq-icon">
+                                                        <span class="line horizontal"></span>
+                                                        <span class="line vertical"></span>
+                                                    </span>
+                                                </button>
+                                            </h2>
+
+                                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                                <div class="accordion-body">
+                                                    On your phone, go to the mobile network settings (Cellular / Mobile Data / Connections depending on your device).
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mas2_detail_box3">
+                    <div class="mas2_detail_box3_card">
+                        <div class="mas2_details_box3_card_head">
+                            <h3 class="mas2_details_box3_title">Plan Information</h3>
+                        </div>
+                        <div class="mas2_details_box3_card_body">
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">Name</p>
+                                <p class="mas2_db3_cbr_r">Brazil 20 GB 30 Days</p>
+                            </div>
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">Name</p>
+                                <p class="mas2_db3_cbr_r">Brazil 20 GB 30 Days</p>
+                            </div>
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">Name</p>
+                                <p class="mas2_db3_cbr_r">Brazil 20 GB 30 Days</p>
+                            </div>
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">Name</p>
+                                <p class="mas2_db3_cbr_r">Brazil 20 GB 30 Days</p>
+                            </div>
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">Name</p>
+                                <p class="mas2_db3_cbr_r">Brazil 20 GB 30 Days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mas2_detail_box3_card">
+                        <div class="mas2_details_box3_card_head">
+                            <h3 class="mas2_details_box3_title">Plan Information</h3>
+                        </div>
+                        <div class="mas2_details_box3_card_body">
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">ICCID</p>
+                                <p class="mas2_db3_cbr_r">89480100000954224313</p>
+                            </div>
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">ICCID</p>
+                                <p class="mas2_db3_cbr_r">89480100000954224313</p>
+                            </div>
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">ICCID</p>
+                                <p class="mas2_db3_cbr_r">89480100000954224313</p>
+                            </div>
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">ICCID</p>
+                                <p class="mas2_db3_cbr_r">89480100000954224313</p>
+                            </div>
+                            <div class="mas2_details_box3_card_body_row">
+                                <p class="mas2_db3_cbr_l">ICCID</p>
+                                <p class="mas2_db3_cbr_r">89480100000954224313</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mas2_details_panel_right">
+                <div class="custom_tab_wrapper">
+                    <div class="daba_gul">
+                        <h3 class="mas2_dpr_title">Top up history</h3>
+                        <div class="mobile_none">
+                            <button class="green_acc_button ms-auto me-0 ">Save changes</button>
+
+                        </div>
+                        <div class="desktop_none">
+                            <button class="green_acc_button ">Save changes</button>
+
+                        </div>
+                    </div>
+
+                    <div class="scroll_card_outer">
+                        <div class="mas2_plan_card active">
+                            <div class="mas2_plan_card_top">
+                                <div class="mas2_pct_l"><img src="./img/brazil.svg" alt=""
+                                        class="img-fluid flaf_mas2">
+                                    <p class="mas2_flag_title">Brazil</p>
+                                </div>
+                                <div class="mas2_pct_r"><button
+                                        class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                </div>
+                            </div>
+                            <div class="mas2_plan_card_bottom">
+                                <div class="mas2_plan_card_bottom_l">
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                    stroke="#47B147" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <p class="title">20&nbsp;GB</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">20&nbsp;GB</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 2.5C17.2382 2.5 21.5 6.76182 21.5 12C21.5 17.2382 17.2382 21.5 12 21.5C6.76182 21.5 2.5 17.2382 2.5 12C2.5 6.76182 6.76182 2.5 12 2.5ZM12 3.16699C7.11123 3.16699 3.16699 7.11123 3.16699 12C3.16699 16.8888 7.11123 20.833 12 20.833C16.8888 20.833 20.833 16.8888 20.833 12C20.833 7.11123 16.8888 3.16699 12 3.16699ZM12.333 5.83301V11.667H16.5V12.333H11.667V5.83301H12.333Z" fill="#51AF5E" stroke="#51AF5E"/>
+                                                              </svg>
+                                            <p class="title">30 days</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <p class="ddaattee">Feb 8, 2026</p>
+                        <div class="mas2_plan_card">
+                            <div class="mas2_plan_card_top">
+                                <div class="mas2_pct_l"><img src="./img/brazil.svg" alt=""
+                                        class="img-fluid flaf_mas2">
+                                    <p class="mas2_flag_title">Brazil</p>
+                                </div>
+                                <div class="mas2_pct_r">
+                                    <button class="btn btn_green_active ms-auto me-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                            <path d="M10.8292 3.83822C12.3913 5.40031 12.3913 7.93297 10.8292 9.49507M5.17237 9.49507C3.61027 7.93297 3.61027 5.40031 5.17237 3.83822M3.28661 11.3807C0.683111 8.77723 0.683111 4.55613 3.28661 1.95264M12.715 1.95264C15.3185 4.55613 15.3185 8.77723 12.715 11.3807M8.0008 8C8.73718 8 9.33413 7.40305 9.33413 6.66667C9.33413 5.93029 8.73718 5.33333 8.0008 5.33333C7.26442 5.33333 6.66747 5.93029 6.66747 6.66667C6.66747 7.40305 7.26442 8 8.0008 8ZM8.0008 8V14" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Active
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mas2_plan_card_bottom">
+                                <div class="mas2_plan_card_bottom_l">
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                    stroke="#47B147" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <p class="title">20&nbsp;GB</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">20&nbsp;GB</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 2.5C17.2382 2.5 21.5 6.76182 21.5 12C21.5 17.2382 17.2382 21.5 12 21.5C6.76182 21.5 2.5 17.2382 2.5 12C2.5 6.76182 6.76182 2.5 12 2.5ZM12 3.16699C7.11123 3.16699 3.16699 7.11123 3.16699 12C3.16699 16.8888 7.11123 20.833 12 20.833C16.8888 20.833 20.833 16.8888 20.833 12C20.833 7.11123 16.8888 3.16699 12 3.16699ZM12.333 5.83301V11.667H16.5V12.333H11.667V5.83301H12.333Z" fill="#51AF5E" stroke="#51AF5E"/>
+                                                              </svg>
+                                            <p class="title">30 days</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="mas2_plan_card expired">
+                            <div class="mas2_plan_card_top">
+                                <div class="mas2_pct_l"><img src="./img/brazil.svg" alt=""
+                                        class="img-fluid flaf_mas2">
+                                    <p class="mas2_flag_title">Brazil</p>
+                                </div>
+                                <div class="mas2_pct_r"><button
+                                        class="btn btn_red_expired ms-auto me-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M11.3327 4.66663L4.66602 11.3333M4.66602 4.66663L11.3327 11.3333" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> Expired</button>
+                                </div>
+                            </div>
+                            <div class="mas2_plan_card_bottom">
+                                <div class="mas2_plan_card_bottom_l">
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                    stroke="#47B147" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <p class="title">20&nbsp;GB</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">20&nbsp;GB</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 2.5C17.2382 2.5 21.5 6.76182 21.5 12C21.5 17.2382 17.2382 21.5 12 21.5C6.76182 21.5 2.5 17.2382 2.5 12C2.5 6.76182 6.76182 2.5 12 2.5ZM12 3.16699C7.11123 3.16699 3.16699 7.11123 3.16699 12C3.16699 16.8888 7.11123 20.833 12 20.833C16.8888 20.833 20.833 16.8888 20.833 12C20.833 7.11123 16.8888 3.16699 12 3.16699ZM12.333 5.83301V11.667H16.5V12.333H11.667V5.83301H12.333Z" fill="#51AF5E" stroke="#51AF5E"/>
+                                                              </svg>
+                                            <p class="title">30 days</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <p class="ddaattee">Feb 8, 2026</p>
+                        <div class="mas2_plan_card expired">
+                            <div class="mas2_plan_card_top">
+                                <div class="mas2_pct_l"><img src="./img/brazil.svg" alt=""
+                                        class="img-fluid flaf_mas2">
+                                    <p class="mas2_flag_title">Brazil</p>
+                                </div>
+                                <div class="mas2_pct_r"><button
+                                        class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                </div>
+                            </div>
+                            <div class="mas2_plan_card_bottom">
+                                <div class="mas2_plan_card_bottom_l">
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                    stroke="#47B147" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <p class="title">20&nbsp;GB</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">20&nbsp;GB</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 2.5C17.2382 2.5 21.5 6.76182 21.5 12C21.5 17.2382 17.2382 21.5 12 21.5C6.76182 21.5 2.5 17.2382 2.5 12C2.5 6.76182 6.76182 2.5 12 2.5ZM12 3.16699C7.11123 3.16699 3.16699 7.11123 3.16699 12C3.16699 16.8888 7.11123 20.833 12 20.833C16.8888 20.833 20.833 16.8888 20.833 12C20.833 7.11123 16.8888 3.16699 12 3.16699ZM12.333 5.83301V11.667H16.5V12.333H11.667V5.83301H12.333Z" fill="#51AF5E" stroke="#51AF5E"/>
+                                                              </svg>
+                                            <p class="title">30 days</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="mas2_plan_card expired">
+                            <div class="mas2_plan_card_top">
+                                <div class="mas2_pct_l"><img src="./img/brazil.svg" alt=""
+                                        class="img-fluid flaf_mas2">
+                                    <p class="mas2_flag_title">Brazil</p>
+                                </div>
+                                <div class="mas2_pct_r"><button
+                                        class="btn btn_yellow_global ms-auto me-0">Install eSIM</button>
+                                </div>
+                            </div>
+                            <div class="mas2_plan_card_bottom">
+                                <div class="mas2_plan_card_bottom_l">
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M11.3333 2.66671L11.3333 13.3334M11.3333 13.3334L8.66667 10.6667M11.3333 13.3334L14 10.6667M4.66667 13.3334L4.66667 2.66671M4.66667 2.66671L2 5.33337M4.66667 2.66671L7.33333 5.33337"
+                                                    stroke="#47B147" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <p class="title">20&nbsp;GB</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:100%; background-color: #47B147;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">20&nbsp;GB</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="stat-box">
+                                        <div class="stat-header">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 2.5C17.2382 2.5 21.5 6.76182 21.5 12C21.5 17.2382 17.2382 21.5 12 21.5C6.76182 21.5 2.5 17.2382 2.5 12C2.5 6.76182 6.76182 2.5 12 2.5ZM12 3.16699C7.11123 3.16699 3.16699 7.11123 3.16699 12C3.16699 16.8888 7.11123 20.833 12 20.833C16.8888 20.833 20.833 16.8888 20.833 12C20.833 7.11123 16.8888 3.16699 12 3.16699ZM12.333 5.83301V11.667H16.5V12.333H11.667V5.83301H12.333Z" fill="#51AF5E" stroke="#51AF5E"/>
+                                                              </svg>
+                                            <p class="title">30 days</p>
+                                        </div>
+
+                                        <div class="progress-row">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"
+                                                    style="width:80%; background-color: #DF3F3F;height: 100%;border-radius: 4px;">
+                                                </div>
+                                            </div>
+                                            <div class="pro_val_div">
+                                                <p class="progress-value">30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="desktop_none">
+                    <div class="tirthqak_pagination">
+                        <div class="pag_div">
+                            <p>PREV.  </p>
+                        </div>
+                        <div class="pag_div">
+                            <p>1    </p>
+                        </div>
+                        <div class="pag_div pag_div_active">
+                            <p>2    </p>
+                        </div>
+                        <div class="pag_div">
+                            <p>3    </p>
+                        </div>
+                        <div class="pag_div">
+                            <p>...    </p>
+                        </div>
+                        <div class="pag_div">
+                            <p>12   </p>
+                        </div>
+    
+                        <div class="pag_div for_next">
+                            <p>Next   </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</Maindiv>
+
+
+
+
+
+
+
+
+<?php include 'includes/footer.php'; ?>
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function passwordEye(e, inpId) {
+        const input = document.querySelector(`#${inpId}`);
+        const img = e.target;
+        const type = input.getAttribute('type') === 'password' ? 'text' : 'password';
+        input.setAttribute('type', type);
+
+        if (img.src.includes("ic.svg")) {
+            img.src = img.src.replace("ic.svg", "io.svg");
+        } else {
+            img.src = img.src.replace("io.svg", "ic.svg");
+        }
+    }
+</script>
+
+ <script>
+    function passwordEye(e, inpId) {
+        const input = document.querySelector(`#${inpId}`);
+        const img = e.target;
+        const type = input.getAttribute('type') === 'password' ? 'text' : 'password';
+        input.setAttribute('type', type);
+
+        if (img.src.includes("ic.svg")) {
+            img.src = img.src.replace("ic.svg", "io.svg");
+        } else {
+            img.src = img.src.replace("io.svg", "ic.svg");
+        }
+    }
+</script>

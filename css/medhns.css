@@ -1,16 +1,12 @@
-/* IMPORT FONT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/* GLOBAL */
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-/* ================= HERO SECTION ================= */
-.privacy-hero {
-    min-height: 100%;
-    background: url('/img/privarcy-bg.png') no-repeat center center/cover;
+.compatibility-hero {
+    min-height: 600px;
+    background: url('../img/privarcy-bg.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,27 +14,25 @@ body {
     padding: 100px 0 60px;
 }
 
-.privacy-hero-content {
+.compatibility-hero-content {
     max-width: 720px;
 }
 
-.privacy-hero-title {
+.compatibility-hero-title {
     font-size: 60px;
     font-weight: 600;
     color: #111;
     letter-spacing: -1px;
 }
 
-.privacy-hero-subtitle {
+.compatibility-hero-subtitle {
     font-size: 15px;
     color: #6c757d;
     margin-top: 12px;
     line-height: 1.6;
 }
 
-
-/* ================= DEVICES SECTION ================= */
-.privacy-devices {
+.compatibility-devices {
     background: #fff;
     padding: 60px 0 100px;
     height: 100%;
@@ -48,18 +42,18 @@ body {
     max-width: 1000px;
 }
 
-.privacy-device-heading {
+.compatibility-device-heading {
     font-weight: 600;
     font-size: 15px;
     color: #6b6b6b;
     margin-bottom: 6px;
 }
 
-.privacy-sub-heading {
+.compatibility-sub-heading {
     color: #6b6b6b;
 }
 
-.privacy-device-list {
+.compatibility-device-list {
     list-style: disc;
     padding-left: 30px;
     color: #6b6b6b;
@@ -67,8 +61,6 @@ body {
     line-height: 1.9;
 }
 
-
-/* ================= COMPATIBILITY ================= */
 .compatibility-section {
     height: 100%;
 }
@@ -98,39 +90,42 @@ body {
 .compat-btn {
     display: inline-block;
     margin-top: 20px;
-    padding: 12px 28px;
-    background: #2e7d32;
+
+    padding: 14px 40px;
+
+    background: url('../img/Btn.png') no-repeat center;
+    background-size: 100% 100%;
+
     color: #fff;
     font-size: 13px;
     font-weight: 500;
     text-decoration: none;
-    border-radius: 4px;
-    transition: 0.3s ease;
+
+    transition: all 0.3s ease;
 }
 
 .compat-btn:hover {
-    background: #256628;
+    background-image: url('../img/Btn_hov.png');
+    background-size: 100%;
+
+    transform: scale(1.08);
 }
 
-
-/* ================= DIVIDER ================= */
 .section-divider {
     width: 100%;
     height: 15px;
-    background: url('/img/privarcy-divider.png') repeat-x;
+    background: url('../img/privarcy-divider.png') repeat-x;
     background-size: contain;
     margin-top: -5px;
 }
 
-
-/* ================= TABLET ================= */
 @media (max-width: 1024px) {
 
-    .privacy-devices {
+    .compatibility-devices {
         padding: 40px 15px 200px;
     }
 
-    .privacy-devices .col-lg-4 {
+    .compatibility-devices .col-lg-4 {
         padding: 0;
         margin-bottom: 0 !important;
     }
@@ -139,45 +134,44 @@ body {
         max-width: 100%;
     }
 
-    .privacy-device-heading {
+    .compatibility-device-heading {
         font-size: 16px;
         margin-top: 12px;
     }
 
-    .privacy-sub-heading {
+    .compatibility-sub-heading {
         font-size: 14px;
         margin-top: 6px;
     }
 
-    .privacy-device-list {
+    .compatibility-device-list {
         font-size: 13px;
         padding-left: 18px;
     }
 }
 
 
-/* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
     /* HERO */
-    .privacy-hero {
-        height: 100%;
+    .compatibility-hero {
+        min-height: 100%;
         
         margin-top: 70px;
     }
 
-    .privacy-hero-title {
+    .compatibility-hero-title {
         font-size: 32px;
         line-height: 1.2;
     }
 
-    .privacy-hero-subtitle {
+    .compatibility-hero-subtitle {
         font-size: 14px;
         padding: 0 10px;
     }
 
     /* DEVICES */
-    .privacy-devices {
+    .compatibility-devices {
         padding: 40px 15px 80px;
     }
 
@@ -185,41 +179,39 @@ body {
         max-width: 100%;
     }
 
-    .privacy-devices .col-lg-4 {
+    .compatibility-devices .col-lg-4 {
         padding: 0;
     }
 
-    .privacy-devices .mb-4 {
+    .compatibility-devices .mb-4 {
         margin-bottom: 0 !important;
     }
 
-    .privacy-device-heading {
+    .compatibility-device-heading {
         font-size: 16px;
         margin-top: 15px;
     }
 
-    .privacy-sub-heading {
+    .compatibility-sub-heading {
         font-size: 14px;
     }
 
-    .privacy-device-list {
+    .compatibility-device-list {
         font-size: 13px;
         line-height: 1.8;
         margin: 0;
     }
 
-    .privacy-device-list li {
+    .compatibility-device-list li {
         margin-bottom: 4px;
     }
 
-    /* DIVIDER */
     .section-divider {
         height: 50px;
-        background: url('/img/privarcy-mobile-divider.png') no-repeat center;
+        background: url('../img/privarcy-mobile-divider.png') no-repeat center;
         background-size: contain;
     }
 
-    /* COMPATIBILITY */
     .compatibility-section {
         padding: 60px 15px;
     }
@@ -235,20 +227,24 @@ body {
     .compat-btn {
         padding: 10px 20px;
         font-size: 12px;
+        background-size: 100%;
+    }
+
+    .compat-btn:hover {
+        transform: scale(1.05); 
+        background-size: 100%;
     }
 }
 
-
-/* ================= FORCE SINGLE COLUMN ================= */
 @media (max-width: 991px) {
 
-    .privacy-devices .row {
+    .compatibility-devices .row {
         display: block !important;
     }
 
-    .privacy-devices .col-lg-4,
-    .privacy-devices .col-md-6,
-    .privacy-devices .col-md-4 {
+    .compatibility-devices .col-lg-4,
+    .compatibility-devices .col-md-6,
+    .compatibility-devices .col-md-4 {
         width: 100% !important;
         max-width: 100% !important;
         flex: 0 0 100% !important;
@@ -256,11 +252,9 @@ body {
     }
 }
 
-
-/* ================= TERMS PAGE ================= */
 .terms-hero {
-    min-height: 500px;
-    background: url('/img/terms-bg.png') no-repeat center center/cover;
+    min-height: 600px;
+    background: url('../img/terms-bg.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -309,7 +303,7 @@ body {
 @media (max-width: 768px) {
 
     .terms-hero {
-        height: 100%;
+        min-height: 100%;
         
     }
 
@@ -332,5 +326,73 @@ body {
 
     .terms-content p {
         font-size: 13px;
+    }
+}
+
+.error-404 {
+    min-height: 100%; 
+    padding: 100px 15px 40px;
+}
+
+.error-404-main h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.error-404-main p {
+    font-size: 15px;
+    color: #666;
+}
+
+.erro-btn-warp {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.erro-btn-warp .btn {
+    padding: 12px 28px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.btn-green {
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+}
+
+@media (max-width: 576px) {
+
+    .error-404 {
+        padding: 60px 15px 40px;
+    }
+
+    .error-404-main h2 {
+        font-size: 28px;
+    }
+
+    .error-404-main p {
+        font-size: 13px;
+    }
+
+    .erro-btn-warp {
+        flex-direction: row; 
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .erro-btn-warp .btn {
+        width: auto;
+        min-width: 120px;
+        padding: 10px 12px;
+        font-size: 11px;
     }
 }

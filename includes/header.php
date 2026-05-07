@@ -17,6 +17,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <link rel="stylesheet" href="uiframe/css/slick-theme.css">
     <link rel="stylesheet" href="css/t_styles.css">
     <link rel="stylesheet" href="css/rstyle.css">
+    <link rel="stylesheet" href="css/sakkdm.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/dhiraj.css">
